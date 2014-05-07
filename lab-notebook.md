@@ -20,4 +20,4 @@ t11 = 338.494
 gas started after t11 - 5% CO2 bal. nitrogen
 
 t12 = 667.168
-t13 = 
+t13 = 731.666
