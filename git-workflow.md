@@ -1,5 +1,8 @@
-Git Set-Up
+Git
 ===
+
+[This](http://git-scm.com/book/en/Getting-Started) book is the best. 
+
 Initial set-up
 -------
 
@@ -24,3 +27,10 @@ You will also have to make the repository on github as well
 	$ git commit -m "first commit"
 	$ git remote add origin https://github.com/mbrenn3/3D-printed-oxygen-devices.git
 	$ git push -u origin master 
+
+Clone an Existing Repository: 
+------------------------
+
+	$ git clone https://github.com/mbrenn3/3D-printed-oxygen-devices.git
+
+This will make a directory named 3D-printed-oxygen-devices with the project file inside it.
