@@ -21,3 +21,9 @@ Goal
 Characterize oxygen control in both devices
 
 *test/demonstrate that pulling gas through eliminates bubble formation or dehydration of culture area
+
+Add to directory: 
+
+papers: folch, other two
+
+add microTas abstract and BMES 
