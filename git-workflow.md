@@ -34,3 +34,15 @@ Clone an Existing Repository:
 	$ git clone https://github.com/mbrenn3/3D-printed-oxygen-devices.git
 
 This will make a directory named 3D-printed-oxygen-devices with the project file inside it.
+
+When you are done working push back to the origin (Github)
+----------------------------------
+
+	$ git push -u origin master
+
+Before you start working later pull changes to the local repo
+-------------------------------------
+
+	$ git pull origin
+
+What do I do with merging different pushes/pulls?
