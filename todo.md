@@ -1,10 +1,6 @@
 todo
 ====
 
-ignore .md~ files
-
-put in data? 
-
 put in lit
 
 decide how publish readme to be quick overview
