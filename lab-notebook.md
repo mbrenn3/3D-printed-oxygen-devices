@@ -21,3 +21,12 @@ gas started after t11 - 5% CO2 bal. nitrogen
 
 t12 = 667.168
 t13 = 731.666
+
+050814 -
+
+wells 1-5 appear to have no bubbles. 6 has a bubbles that grows during duration, although it seems to be out of the plane of focus, perhaps below the standing well insert or in the device? Perhaps there was a leak and water was pulled into the device? I dont see any water in the device. 
+
+data was logged in to a txt file starting with the exp, then dry calibration, then ss calibration.
+ 
+
+
