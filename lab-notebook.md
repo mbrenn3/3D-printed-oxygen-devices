@@ -28,7 +28,7 @@ t13 = 731.666
 
 050814 -
 
-wells 1-5 appear to have no bubbles. 6 has a bubbles that grows during duration, although it seems to be out of the plane of focus, perhaps below the standing well insert or in the device? Perhaps there was a leak and water was pulled into the device? I dont see any water in the device. 
+wells 1-5 appear to have no bubbles. 6 has a bubbles that grows during duration, although it seems to be out of the plane of focus, perhaps below the standing well insert or in the device? Perhaps there was a leak and water was pulled into the device? I dont see any water in the device, could have been evaporated as well.
 
 data was logged in to a txt file starting with the exp, then dry calibration, then ss calibration.
 
@@ -78,7 +78,15 @@ t5 = 371.942
 vacuum turned on only pulling air
 
 t6 = 369.925
-t7 = 
+t7 = 368.804
+t8 = 367.961
+t9 = 367.043
+t10 = 366.204
+
+5% CO2 gas line inserted in to vaccum inlet 
+
+t11 = 700.153
+
  
 
 

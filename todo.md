@@ -1,5 +1,8 @@
 todo
 ====
+move scale into scopeagard room
+
+put CAD designs in git 
 
 decide if I need pdf git tracked? maybe just a .bib file? 
 
@@ -9,7 +12,7 @@ why are half the images blank in metamorph? - ask susan
 
 decide how publish readme to be quick overview
 
-Plan for experiments
+Do pressure expirments to demonstrate bubble formation
 
 compare pressureized flow to vacuum flow in the formation of bubbles
 
