@@ -55,7 +55,30 @@ t10 = 360.595
 
 Gas line hooked up after t10 
 
+050914
 
+post calibration taken at 11am 
+
+at 11:15 a aquasition of 30 sec intervals was started after pulling room air rather then %5 CO2 bal. N2. 
+
+intensity data was analyzed and recorded in a txt file intensities050814 starting with SS calibraion, then exp, pulling air
+
+the stage memorization is off. well 1 is 3, 3 was taken twice. 
+
+New Experiment 050914
+----
+Same procedure as before
+
+calibration was taken with SS then non SS water was replaced and the device placed in without vacuum for first 5 timepoints 
+
+t3 = 374.297
+t4 = 373.091
+t5 = 371.942
+
+vacuum turned on only pulling air
+
+t6 = 369.925
+t7 = 
  
 
 

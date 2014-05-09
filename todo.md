@@ -1,7 +1,11 @@
 todo
 ====
 
-put in lit
+decide if I need pdf git tracked? maybe just a .bib file? 
+
+find out how to save raw images/data in the a viewable fasion from metamorph
+
+why are half the images blank in metamorph? - ask susan
 
 decide how publish readme to be quick overview
 
