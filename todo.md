@@ -1,6 +1,6 @@
 todo
 ====
-move scale into scopeagard room
+put .m file in git
 
 put CAD designs in git 
 

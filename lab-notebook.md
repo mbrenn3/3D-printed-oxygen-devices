@@ -78,14 +78,60 @@ t5 = 371.942
 vacuum turned on only pulling air
 
 t6 = 369.925
+
 t7 = 368.804
+
 t8 = 367.961
+
 t9 = 367.043
+
 t10 = 366.204
 
 5% CO2 gas line inserted in to vaccum inlet 
 
 t11 = 700.153
+
+051214
+-----
+
+intensity data taken from 050914 place in a .log txt file with SS calibrations fist followed by exp
+
+I dont see any bubbles forming in the images
+
+raw images saved on patriot 
+
+Expirment 051214
+------
+same procedure as previous days 
+
+t1=373.719
+
+t2=374.277
+
+t3=374.711
+
+t4=374.972
+
+t5=374.874
+
+vacuum turned on pulling room air
+
+t6=372.992
+
+t7=372.034
+
+t8=
+
+t9=371.33
+
+t10=371.006
+
+Gas tubing connceted 
+
+
+
+
+
 
  
 
