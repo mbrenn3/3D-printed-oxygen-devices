@@ -1,3 +1,7 @@
+load data/050714/well1.LOG
+
+z=well1;
+
 % make a matrix named "z" with calibration intensities and percents for
 % the first 4 elements( I1, %1, I2, %2, exp intensities) 
 
@@ -15,3 +19,5 @@ y1 = I0./(1+kt*x1);        % plots stern-volmer. Check to see if its fitting you
 Opercent3 = ((I0./z)-1)/kt;
 %figure
 %plot(Opercent3)
+
+save data/050714/well1a.txt Opercent3
