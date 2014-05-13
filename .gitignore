@@ -1,4 +1,7 @@
 *.md~
 *.DS_Store
 *.m~
-*.lo*
+*.csv#
+*.txt#
+*.csv~
+*.ods#
