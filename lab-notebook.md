@@ -128,6 +128,13 @@ t10=371.006
 
 Gas tubing connceted 
 
+051314
+----
+
+intensities logged to .log txt file with SS calibrations first
+
+no bubbles were seen in the images
+
 
 
 
