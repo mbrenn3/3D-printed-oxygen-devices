@@ -1,4 +1,7 @@
-rm The device is placed in the dish not weighted down
+050714
+---
+
+The device is placed in the dish not weighted down
 
 Vacuum was started soon after time point 5 
 
@@ -26,7 +29,9 @@ t12 = 667.168
 
 t13 = 731.666
 
-050814 -
+050814
+
+---
 
 wells 1-5 appear to have no bubbles. 6 has a bubbles that grows during duration, although it seems to be out of the plane of focus, perhaps below the standing well insert or in the device? Perhaps there was a leak and water was pulled into the device? I dont see any water in the device, could have been evaporated as well.
 
