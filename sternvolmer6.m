@@ -1,4 +1,4 @@
-load data/050714/intensities.csv %loads data into matrix named intensities
+load data/050814/intensities.csv %loads data into matrix named intensities
 
 %%%%%% divide matrix into colum vectors according to wells
 
@@ -93,4 +93,4 @@ percents = [percent1(5:end), percent2(5:end), percent3(5:end), percent4(5:end), 
 
 %%% print data to a file
 
-save -ascii data/050714/analyzed.txt percents
+save -ascii data/050814/analyzed.txt percents
