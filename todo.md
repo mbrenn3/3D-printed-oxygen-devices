@@ -1,37 +1,22 @@
 todo
 ====
 
-Analyze data
-	decide what timepoints to use for calibration
-	figure out what happened on day two - check if the double points are useful - also check pulling room air
-	extend sci-davis ploting to full time points 
+- [ ] analyze and plot data for N of 3
+ - [ ] see if day 2 data is usefull
+ - [ ] plot pulling room air data
 
-get together some publication plan to show DTE with the data
-	make another full sized 24 well?, 6 well, 48 well, 96 well?
+- [ ] make a publication plan document
+ - [ ] make full size 24 well? 6, 48, 96 well?
 
-decide if calibration is OK with change while pulling room air. 
+- [ ] put CAD designs in git
 
-put CAD designs in git 
+- [ ] at least start tracking a .bib file for papers
+ - [ ] look into way to track/link pdf files and data as well
 
-get .bib file going, look into storage for larger files out of git/git hub? 
+- [ ] use image J to check the half full images from metamorph
 
-compare intensity analysis with image J 
+- [ ] find old data that shows the formation of bubbles
 
-decide how publish readme to be quick overview
+- [ ] add microTas and BMES abstracts
 
-###compare pressureized flow to vacuum flow in the formation of bubbles
-Do pressure expirments to demonstrate bubble formation or find old data that showes bubble formation
-
-Poster for CCNE?
-
-papers: folch, other two
-
-add microTas abstract and BMES 
-
-Develop
--------
-
-make full size (non-boyden chamber) 24 well design
-make 6 and 48 as well? 
-
-
+- [ ] make full sized 24 well device if data is good
