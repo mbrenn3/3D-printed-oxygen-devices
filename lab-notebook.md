@@ -147,5 +147,3 @@ Data was analyzed for days trials 1, 3 and 4 (050714,050914,051214). The second 
 ![alt text](data/050714.png "trial1")
 ![alt text](data/050914.png "trial1")
 ![alt text](data/051214.png "trial1")
-
-
