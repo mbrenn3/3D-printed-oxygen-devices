@@ -140,11 +140,12 @@ intensities logged to .log txt file with SS calibrations first
 
 no bubbles were seen in the images
 
+060514
+------
+Data was analyzed for days trials 1, 3 and 4 (050714,050914,051214). The second trial was skipped because of the error in stage positions causeing one well to be imaged twice while missing one well. 
 
-
-
-
-
- 
+![alt text](data/050714.png "trial1")
+![alt text](data/050914.png "trial1")
+![alt text](data/051214.png "trial1")
 
 
