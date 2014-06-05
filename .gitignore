@@ -6,3 +6,5 @@
 *.csv~
 *.ods#
 *.m~~
+*.sciprj~
+.gitignore~
