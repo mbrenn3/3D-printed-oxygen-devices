@@ -144,6 +144,11 @@ no bubbles were seen in the images
 ------
 Data was analyzed for days trials 1, 3 and 4 (050714,050914,051214). The second trial was skipped because of the error in stage positions causeing one well to be imaged twice while missing one well. 
 
+The averaged N=3 data looks good.
+It is apparent that the distal well do not achieve as much flow or the pillers did not reach close enough to the sensors.
+I may try weighing down the device in the plate.
+
 ![alt text](data/050714.png "trial1")
-![alt text](data/050914.png "trial1")
-![alt text](data/051214.png "trial1")
+![alt text](data/050914.png "trial2")
+![alt text](data/051214.png "trial3")
+![alt text](data/nof3.png "trial3")
