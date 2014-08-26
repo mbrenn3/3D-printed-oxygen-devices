@@ -152,3 +152,26 @@ I may try weighing down the device in the plate.
 ![alt text](data/050914.png "trial2")
 ![alt text](data/051214.png "trial3")
 ![alt text](data/nof3.png "trial3")
+
+082614
+------
+experiment with 6 well prototype with manually adjusting the focus
+
+t 17 2261
+t 18 2293
+t 21 2358
+t 22 2372
+t 23 2385
+t 24 2397
+
+t2 1 2415
+t2 3 2433
+t2 6 2456
+t2 7 2462
+t2 11 2481
+t2 15 2497
+t2 16 2504
+t2 19 2510
+t2 20 2512
+t2 22 2516
+t2 24 2525
