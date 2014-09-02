@@ -152,3 +152,45 @@ I may try weighing down the device in the plate.
 ![alt text](data/050914.png "trial2")
 ![alt text](data/051214.png "trial3")
 ![alt text](data/nof3.png "trial3")
+
+082614
+------
+experiment with 6 well prototype with manually adjusting the focus
+
+t 17 2261
+t 18 2293
+t 21 2358
+t 22 2372
+t 23 2385
+t 24 2397
+
+t2 1 2415
+t2 3 2433
+t2 6 2456
+t2 7 2462
+t2 11 2481
+t2 15 2497
+t2 16 2504
+t2 19 2510
+t2 20 2512
+t2 22 2516
+t2 24 2525
+
+082714
+------
+t1 752
+t2 740
+t4 729
+t5 724
+t7 720
+t8 718
+t9 717
+t10 716
+gas tube placed in 5% CO2 bal. nitrogen no vacuum yet
+
+t11 986
+t12 1627
+t13 2025
+t14 2201
+t15 2288
+t17 2377
