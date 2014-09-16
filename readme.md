@@ -6,6 +6,7 @@ Inbox
 ---
 
 - [ ] make a github pages for project to coincide with publication
+- [ ] check plos one format and latex outline
 
 todo
 ====
@@ -17,7 +18,7 @@ todo
 - [ ] find 3 days of data or take more
  - [ ] where are the plots of the new data? on dell?
 
-- [ ] publication plan
+- [ ] start publication document
 
 sternvolmer6.m
 --------------
