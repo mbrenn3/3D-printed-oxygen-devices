@@ -10,10 +10,14 @@ Inbox
 
 todo
 ====
+- [ ] analyze data with imageJ
+- [ ] figure out how many more days to do
+
+- [x] order ptoepk
 
 - [ ] begin writing protocol for every step
 
-- [ ] make full 24 well design to be printed
+- [ ] get 24 printed
 
 - [ ] find 3 days of data or take more
  - [ ] where are the plots of the new data? on dell?
