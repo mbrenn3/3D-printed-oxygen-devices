@@ -203,3 +203,11 @@ Calibration preformed with SS and with 0% O2 flowing through the device (5% CO2,
 0% O2 gas flowing during calibration to account for temperature changes due to flow and to eliminate O2 difusion from the device to off set calibration point.
 vacuum Rotameter: 8
 flow rotameter: 27
+
+took nearly 2 hrs for the intensity to stop increasing, calibration images taken and saved in sscal
+
+Calibration for 21% oxygen is preformed after the plate and device are rinsed with DI water and dryed.
+Fresh DI water is pipetted into the wells, and air from a compressed air tank is flowed throught the device with vacuum. The vacuum and flow rotameter are set to the same rates. 
+intensity steadys around 20 min
+
+
