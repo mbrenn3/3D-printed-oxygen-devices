@@ -194,3 +194,12 @@ t13 2025
 t14 2201
 t15 2288
 t17 2377
+
+091814
+------
+
+Collecting oxygen data the 6 well device
+Calibration preformed with SS and with 0% O2 flowing through the device (5% CO2, bal. N2). 
+0% O2 gas flowing during calibration to account for temperature changes due to flow and to eliminate O2 difusion from the device to off set calibration point.
+vacuum Rotameter: 8
+flow rotameter: 27
