@@ -210,4 +210,15 @@ Calibration for 21% oxygen is preformed after the plate and device are rinsed wi
 Fresh DI water is pipetted into the wells, and air from a compressed air tank is flowed throught the device with vacuum. The vacuum and flow rotameter are set to the same rates. 
 intensity steadys around 20 min
 
+z stage was very out of focus the next day. data may be not good
+
+10 points were taken the next day whit z re focused.
+
+I noticed that the weights were not enough to keep the device at the bottom of the wells. One side 1 or 6 side may have been 1mm away from the bottom.
+
+091914
+------
+
+New experiment same procedure as 091914. Larger weights this time to keep the device in the bottom of the wells.
+
 
