@@ -237,3 +237,20 @@ Took more than an hour for the SS calibration intensity values to steady.
 I wonder if the slow action of SS is due to it not being opened in a nitrogen environment.
 after the fourth time point the tube was placed in the 5% CO2 bal. N2 tube.
 
+t12 1840.78
+t13 1860.99
+t14 1877
+t15 1890.65
+t16 1902.52
+t17 1912.58
+t18 1921.67
+t19 1929
+t20 1937
+t21 1943
+t22 1949.9
+
+t36 2006
+t39 2011.15
+t40 2013
+t46 2026
+t48 2029
