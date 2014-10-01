@@ -221,4 +221,11 @@ I noticed that the weights were not enough to keep the device at the bottom of t
 
 New experiment same procedure as 091914. Larger weights this time to keep the device in the bottom of the wells.
 
+092514
+------
+
+Started new experiment. 
+
+Noticed water in the tubing and device after calibration with SS. At least 2 pillar were leaking. the device was dehydrated on a hot plate and patched around the membranes with more PDMS. 
+
 
