@@ -235,5 +235,5 @@ Experiment with new full plate device.
 
 Took more than an hour for the SS calibration intensity values to steady.
 I wonder if the slow action of SS is due to it not being opened in a nitrogen environment.
-after the third time point the tube was placed in the 5% CO2 bal. N2 tube.
+after the fourth time point the tube was placed in the 5% CO2 bal. N2 tube.
 
