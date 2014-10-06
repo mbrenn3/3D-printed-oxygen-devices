@@ -254,3 +254,14 @@ t39 2011.15
 t40 2013
 t46 2026
 t48 2029
+
+100314
+------
+
+Experiment on the pond scope because the stage works better
+
+I used a fresh batch of SS from within a glove bag flushed with nitrogen. It equalibration still takes over an hour.
+
+
+
+
