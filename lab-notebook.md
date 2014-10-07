@@ -262,6 +262,19 @@ Experiment on the pond scope because the stage works better
 
 I used a fresh batch of SS from within a glove bag flushed with nitrogen. It equalibration still takes over an hour.
 
+100614
+------
+
+Second characterization on pond scope
+
+The bulb is not aligned on the pond scope but i plan on taking the region that is bright
+
+The timelapse was set to 60 hour rather than 6
+
+100714
+------
+Third experiment on the pond scope
+
 
 
 
