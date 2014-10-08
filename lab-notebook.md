@@ -275,6 +275,6 @@ The timelapse was set to 60 hour rather than 6
 ------
 Third experiment on the pond scope
 
-
+no amb calibration stack was taken, tube was placed in one hour in to exp1 MDA
 
 
