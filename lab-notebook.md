@@ -194,3 +194,87 @@ t13 2025
 t14 2201
 t15 2288
 t17 2377
+
+091814
+------
+
+Collecting oxygen data the 6 well device
+Calibration preformed with SS and with 0% O2 flowing through the device (5% CO2, bal. N2). 
+0% O2 gas flowing during calibration to account for temperature changes due to flow and to eliminate O2 difusion from the device to off set calibration point.
+vacuum Rotameter: 8
+flow rotameter: 27
+
+took nearly 2 hrs for the intensity to stop increasing, calibration images taken and saved in sscal
+
+Calibration for 21% oxygen is preformed after the plate and device are rinsed with DI water and dryed.
+Fresh DI water is pipetted into the wells, and air from a compressed air tank is flowed throught the device with vacuum. The vacuum and flow rotameter are set to the same rates. 
+intensity steadys around 20 min
+
+z stage was very out of focus the next day. data may be not good
+
+10 points were taken the next day whit z re focused.
+
+I noticed that the weights were not enough to keep the device at the bottom of the wells. One side 1 or 6 side may have been 1mm away from the bottom.
+
+091914
+------
+
+New experiment same procedure as 091914. Larger weights this time to keep the device in the bottom of the wells.
+
+092514
+------
+
+Started new experiment. 
+
+Noticed water in the tubing and device after calibration with SS. At least 2 pillar were leaking. the device was dehydrated on a hot plate and patched around the membranes with more PDMS. 
+
+100114
+------
+
+Experiment with new full plate device.
+
+Took more than an hour for the SS calibration intensity values to steady.
+I wonder if the slow action of SS is due to it not being opened in a nitrogen environment.
+after the fourth time point the tube was placed in the 5% CO2 bal. N2 tube.
+
+t12 1840.78
+t13 1860.99
+t14 1877
+t15 1890.65
+t16 1902.52
+t17 1912.58
+t18 1921.67
+t19 1929
+t20 1937
+t21 1943
+t22 1949.9
+
+t36 2006
+t39 2011.15
+t40 2013
+t46 2026
+t48 2029
+
+100314
+------
+
+Experiment on the pond scope because the stage works better
+
+I used a fresh batch of SS from within a glove bag flushed with nitrogen. It equalibration still takes over an hour.
+
+100614
+------
+
+Second characterization on pond scope
+
+The bulb is not aligned on the pond scope but i plan on taking the region that is bright
+
+The timelapse was set to 60 hour rather than 6
+
+100714
+------
+Third experiment on the pond scope
+
+no amb calibration stack was taken, tube was placed in one hour in to exp1 MDA
+
+
