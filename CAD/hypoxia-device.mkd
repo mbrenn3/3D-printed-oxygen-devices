@@ -1,0 +1,70 @@
+#Cancer TPZ Culture Experiments
+
+## Cell models
+### mcf-7 
+* epithelal like, non-invasive
+
+###mda-mb-231
+* fibroblast like, invasive
+* Shawn used: Leibovitz’s L-15 media supplemented with 10% fetal bovine serum and 1% penicillin/streptomycin (ATCC)
+* More lit about use with TPZ
+
+## Tirapazamine
+* reduced to a toxic radical at low oxygen levels
+* 5 μM concentration should be a good starting point
+
+## Plan for now:
+Culture mda-mb-231's ([Leibovitz’s L-15 media](http://www.fishersci.com/ecomm/servlet/fsproductdetail_10652_11842177__-1_0)(0% CO2), 10% FBS, 1% P/S) in 1, 5, 10 and 21% oxygen with [tirapazamine](http://www.sigmaaldrich.com/catalog/product/sigma/sml0552?lang=en&region=US) at 0, 5, 25, 45, 65, and 100 μM. - go over this with DTE, show other pyrogallol papers.
+
+Culture cells for 6-48 hours under conditions
+
+Use [PrestoBlue](http://products.invitrogen.com/ivgn/product/A13261?ICID=cvc-prestoblue-c1t1) viability assay to determine the relative viability of wells compared to the control wells.
+
+Using Millicell Cell Culture Insert, 12 mm, polycarbonate, 0.4 μm pore size [(PIHP01250)](http://www.millipore.com/catalogue/itemdetail.do?id=PIHP01250) Individually blister packaged
+
+
+
+
+# Device Development
+
+To control the oxygen tension gas must diffuse to the cell culture from the membrane. The time that diffusion will take to deliver(or deplete) oxygen is highly dependent on the distance. A model of the hypoxia device was used to estimate how this distance will effect the efficacy of the device to set up and maintain desired oxygen tensions. 
+
+100% nitrogen was flowed through one pillar of the device started flush against a PtOEPK sensor in several mL of water. The distance between the sensor and the diffusion membrane was increased to 125, 250, 500, 750, 1000, and 1250 um. This was completed three times starting with the diffusion membrane at the sensor and moving up. 
+
+ ![not sure what this does](images/diffgap.jpg)
+
+# Pyrogallol Characterization
+
+Calibration of the PtOEPK sensors for 0% oxygen was preformed with a sodium sulfite solution of 2 g/L. 
+![SS](images/SScurve.png)
+
+Pyrogallol was flowed through the device rather than gas to create a hypoxic environment at the culture surface. 100 mg of pyrogallol per mL of water was combined with an equal volume of 1 M sodium hydroxide in a nitrogen flushed glovebag. Pyrogallol was flowed through one network/row of 6 wells at 0.25 mL/hr.  
+![not sure what this does](images/pyroN3.tif)
+
+**the well 5 outlier is most likely due to a bad calibration measurement**
+
+![not sure what this does](images/pyroN3errorbars.tif)
+
+**Data from above averaged with standard deviation(N=3), well 5 outliler thrown out**
+
+![label](images/gasVspyro.tif)
+
+**Comparison of tension reached with using gas in the device Vs pyrogallol flowed at 0.25 ml/hr **
+
+## Resazurin/Resorufin
+* Resazurin is a non-toxic dye that is reduced in the presence of cell metabolism to resorufin which is highly fluorescent
+* fluorescence intensity can be used to quantify live cells - need to work through protocol for this
+* [569/586](http://www.fluorophores.tugraz.at/substance/45) excitation/emmission
+	* should be compatable with [TRITC](http://www.thorlabs.com/images/TabImages/MDF-TRITC_Resorufin.jpg), [Texas Red](http://www.thorlabs.com/images/TabImages/MDF-TXRED_Resorufin.jpg) or [CY3.5](http://www.thorlabs.com/images/TabImages/MDF-Cy3.5_Resorufin.jpg) filter cube
+* commerical varites: [AlamarBlue](http://products.invitrogen.com/ivgn/product/DAL1025), [PrestoBlue](http://products.invitrogen.com/ivgn/product/A13261?ICID=cvc-prestoblue-c1t1)
+* use a no-cell control well for correcting background fluorescence, as well as an untreated cells control
+* add 1/9th volume of cells + media to each well, so for 24 well plate with 1.8 mL volume add 200 um of PrestoBlue
+
+### Working protocol for resazurin/resorufin with microscope
+
+A plate-reader may not be ideal for this experiment because the desired condition to be tested will only be at the insert membrane. Althought TPZ will be throughout the well the desired oxygen tension will only be applied to cells on the insert membrane. Cells in different areas of the well will not be effected by the TPZ-hypoxia condition and may skew the over all fluorescence.
+
+The resazurin/resorufin must be calibrated to correlate number of cells to fluorescence. A cell count must be preformed with hemocytometer on a control well. This must also be adjusted to surface area because the microscope can't image the entire well.
+
+Perhaps to avoid cell count and surface area issues the viablily (overall fluorescence) can just be normalized to a control well. 
+
