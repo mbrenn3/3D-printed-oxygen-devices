@@ -281,3 +281,50 @@ no amb calibration stack was taken, tube was placed in one hour in to exp1 MDA
 ------
 
 0% tube inserted at timepoint 18
+
+
+120214
+------
+
+1st full 24 well characterization
+
+729
+722
+
+716
+
+712
+710
+start 0% O2 in all 4 rows at timepoint 8
+t8 1361.18
+t13 1715
+t18 1780
+t19 1720
+t20 1661
+The regulator needed to be adjusted
+
+22 2049
+25 2099
+30 2123
+31 2127
+changed to different conditions
+
+120314
+-------
+
+same set up as yesterday
+
+0% started for timepoint 7
+9 1837
+12 1967
+13 1986
+16 2032
+19 2082
+20 2071
+22 2089
+23 2099
+24 2086
+25 2095
+26 2102
+27 2106
+gasses set for timepoint 28
