@@ -352,3 +352,27 @@ same set up as before
 2103
 2107
 conditions changed for t 31
+
+120514
+------
+
+same set up
+
+t5 723
+
+t8 720
+0% applied
+t9 1376
+t10 1688
+t11 1815
+t13 1937
+t24 1972
+t17 2035
+t19 2051
+t20 2071
+24 2098
+26 2107
+27 2111
+2118
+conditions changed for t30
+2116
