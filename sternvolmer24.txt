@@ -8,6 +8,24 @@ z3 = intensities(:,3);
 z4 = intensities(:,4);
 z5 = intensities(:,5);
 z6 = intensities(:,6);
+z7 = intensities(:,7);
+z8 = intensities(:,8);
+z9 = intensities(:,9);
+z10 = intensities(:,10);
+z11 = intensities(:,11);
+z12 = intensities(:,12);
+z13 = intensities(:,13);
+z14 = intensities(:,14);
+z15 = intensities(:,15);
+z16 = intensities(:,16);
+z17 = intensities(:,17);
+z18 = intensities(:,18);
+z19 = intensities(:,19);
+z20 = intensities(:,20);
+z21 = intensities(:,21);
+z22 = intensities(:,22);
+z23 = intensities(:,23);
+z24 = intensities(:,24);
 
 % make a matrix named "z" with calibration intensities and percents for
 % the first 4 elements( I1, %1, I2, %2, exp intensities) 
