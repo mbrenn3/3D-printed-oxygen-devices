@@ -328,3 +328,51 @@ same set up as yesterday
 26 2102
 27 2106
 gasses set for timepoint 28
+
+I realized that I probably did not rinse the ss off the device for this experiment
+
+120414
+-----
+
+same set up as before
+
+723
+719
+716
+713
+2022
+2041
+2065
+2083
+2089
+2093
+2096
+2099
+2084
+2103
+2107
+conditions changed for t 31
+
+120514
+------
+
+same set up
+
+t5 723
+
+t8 720
+0% applied
+t9 1376
+t10 1688
+t11 1815
+t13 1937
+t24 1972
+t17 2035
+t19 2051
+t20 2071
+24 2098
+26 2107
+27 2111
+2118
+conditions changed for t30
+2116
