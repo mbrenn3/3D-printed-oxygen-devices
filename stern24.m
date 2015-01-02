@@ -25,5 +25,5 @@ a(:,i) = calculated_percent;
 
 endfor
 
-save data/120414/evaluated.csv
+save data/120414/evaluated.csv a
 
