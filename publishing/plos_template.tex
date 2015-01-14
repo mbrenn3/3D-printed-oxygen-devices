@@ -189,29 +189,37 @@ Two devices are demonstrated: an open-well petri dish design and a device that n
 % authors may use "Analysis" 
 \section*{Materials and Methods}
 
-The 3” petri dish device contains a 500 $\mu$m wide channel following a serpentine path leaving 500 $\mu$m of spacing between channels and has integrated hose barbs directly printed onto the device.
+The 3-inch (75 mm) petri dish device contains a 500 $\mu$m wide channel following a serpentine path leaving 500 $\mu$m of spacing between channels and has integrated hose barbs directly printed onto the device.
 The 3D part is printed with the channels embedded in the bottom of the petri dish. 
-A 120 μm thick PDMS membrane is adhered across the channels.
-This device allows cell cluture in a large open well format compatible with assays requireing cell scaping.
-The membrane is eaisly peeled away allowing additional fixing/staining assays to be preformed and can also be repaced with a new membrane to reuse the device. 
+A 120 $\mu$m thick PDMS membrane is adhered across the channels by spin coating a thin layer of PDMS on the membrane and allowing it to cure in place.
+The device is designed so that a standard 3” petri dish lid may be used.
+This device allows cell culture in a large open well format compatible with assays requiring cell scraping.
+The membrane is easily peeled away allowing additional fixing/staining assays to be preformed and can also be repaced with a new membrane to reuse the device. 
 
-The 24 well plate insert is designed to control gas in 6 wells of a 24 well culture plate from one input, borrowing the working principle of previous work\cite{oppegard2010} and also incorporates integrated hose barbs.
-The pillars extend into each well leaving a $/sim$500 $\mu$m gap for media between the diffusion membrane and the culutre surface at the bottom of the well.
+In addition a device was designed to integrate with a multiwell format, specifically a 24 well plate. 
+The 24 well plate insert is designed to control gas in 6 wells of a 24 well culture plate from one input, borrowing the working principle of previous work\cite{oppegard2010} and also incorporates integrated hose barbs to simplify device operation.
+The pillars extend into each well leaving a $\sim$500 $\mu$m gap for media between the diffusion membrane and the culutre surface at the bottom of the well.
 Diffusion occurs rapidly across this gap allowing control of the dissolved gas environment around the cells. 
-This is a prototype intended to be expanded to control all 24 wells.
 A distribution network stems from the central input that equalizes the flow along each path length by varying the channel width to the proximal, intermediate, and distal wells.
-The device also features a ‘pipe within a pipe’ design so that gas flow enters and leaves the diffusion area in a uniform, and symmetrical flow pattern, which would not be possible with standard lithography and demonstrates the capabilities of 3D printing (Figure \ref{fgr:well-render}.
-A PDMS membrane is adhered to the microchannels of both designs by spin coating a thin PDMS layer as an adhesive.
 
+The device also features a ‘pipe within a pipe’ design so that gas flow enters and leaves the diffusion area in a uniform, and symmetrical flow pattern, which would not be possible with standard lithography and demonstrates the capabilities of 3D printing (Figure \ref{fgr:well-render}.
+Again the membranes are adhered with a thin layer of PDMS on the membrane and allowed to cure in place.
 
 Both devices were printed by Fineline Prototyping in Watershed XC using stereolithography.
-Oxygen was measured in the 3” petri dish device with a commercial fiber-optic probe and the 24 well insert was quantified with a planar oxygen sensor as shown in Figure \ref{fig:6-well-photo}.
-3D CAD models are designed and printed with microfluidic delivery channels, and then completed by adhering a gas permeable membrane of PDMS (Polydimethylsiloxane) to enable diffusion of gas to the culture area.
+CAD models were designed and printed with microfluidic delivery channels, and then completed by 
+adhering a gas permeable membrane of PDMS to enable diffusion of gas to the culture area. 
+
+
 
 % Results and Discussion can be combined.
-\section*{Results}
+\section*{Results and Discussion}
 
-Two devices are presented and characterized: one is a large area (3” diameter) open-well format, and the second is an insert for a standard 24 well plate as shown in Figure \ref{fig:6-well-photo}.
+Oxygen was measured in the 3” petri dish device with a commercial fiber­optic probe (Figure 2).
+Oxygen control was demonstrated with gas flowing through the channel under the PDMS membrane.
+
+The 24 well insert device was quantified with a platinum based (PtOEPK) planar oxygen sensor as shown in Figure 2.
+Oxygen control was able to be controlled in each of the 6 wells equally from one gas input demonstrating the distribution network.
+The device depletes the wells of oxygen for 30 minutes and can then hold the oxygen level near 0\% indefinitely, while 100\% nitrogen is pumped through the device. 
 
 % We only support three levels of headings, please do not create a heading level below \subsubsection.
 \subsection*{Subsection 1}
@@ -220,10 +228,12 @@ Two devices are presented and characterized: one is a large area (3” diameter)
 
 \subsection*{Subsection 2}
 
-\section*{Discussion}
+%\section*{Discussion}
 
 \section*{Conclusion}
-
+3D printing microfluidic chips have been limited to non oxygen permeable materials.
+We demonstrate oxygen control in 3D printed devices the addition of a gas permeable PDMS membrane. 
+Oxygen control is demonstrated in a open well petri dish design and a 24 well plate.
 3D printing allows complex designs, integrated tubing connectors, and is comparable in price to standard PDMS fabrication.
 This technique represents a bridge to commercialization where robust devices can be more easily shared and disseminated.
 While injection molding, hot embossing, or other industrial processes are cheaper when making hundreds to thousands of devices, it is not practical to make a injection mold when making tens to hundreds of devices.
@@ -234,6 +244,8 @@ In addition, PDMS fabrication would be too time consuming, expensive, and the fa
 % Do NOT remove this, even if you are not including acknowledgments.
 
 \section*{Acknowledgments}
+
+This work funded by NSF 1253060.
 
 
 %\section*{References}
