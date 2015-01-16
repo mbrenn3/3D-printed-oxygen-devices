@@ -2,6 +2,7 @@ plan
 ----
 1. get some figures in - then comment out after checking
 2. outline text, methods.
+3. comment out petri dish device
 
 Intro
 ===
