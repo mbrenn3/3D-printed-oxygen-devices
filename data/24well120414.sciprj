@@ -180,7 +180,7 @@ LabelsRotation	0	0
 </multiLayer>
 <multiLayer>
 Graph4	1	1	10/16/14 4:23 PM
-geometry	21	27	803	569	
+geometry	21	27	803	569	active
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -242,7 +242,7 @@ LabelsRotation	0	0
 </multiLayer>
 <multiLayer>
 Graph6	1	1	1/2/15 4:03 PM
-geometry	533	72	804	575	active
+geometry	533	72	804	575	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5

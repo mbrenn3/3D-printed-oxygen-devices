@@ -3,6 +3,19 @@ plan
 1. get some figures in - then comment out after checking
 2. outline text, methods.
 
+Intro
+===
+Planer lithography Vs 3D printing
+other 3D printed device papers
+no material for oxygen control
+
+Methods
+===
+
+Design
+------
+ 
+
 Figure 1 Devices
 ---------------------
 * cad render crossection of 3 inch petri dish
@@ -12,6 +25,15 @@ Figure 1 Devices
 * cad render of whole 24 well part + photo
 * cad render of whole 3 inch part + photo
 * schematic of distribution network
+
+oxygen characterization methods
+------
+
+Cell culture and assay methods
+-----
+
+Results and Discussion
+===
 
 Figure 2 Oxygen Characterization
 -----------
@@ -28,4 +50,4 @@ what does the data look like?
 
 Figure 4 cell stuff with megan
 ----------
-???????
+get figures
