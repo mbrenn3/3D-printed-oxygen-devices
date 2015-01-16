@@ -1,3 +1,8 @@
+plan
+----
+1. get some figures in - then comment out after checking
+2. outline text, methods.
+
 Figure 1 Devices
 ---------------------
 * cad render crossection of 3 inch petri dish
