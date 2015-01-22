@@ -19,8 +19,11 @@ todo
 - [ ] network render with labels and scale bar
 - [ ] get megan to write pcr methods, and ask about discussion
 - [ ] write section about shawn's device, and dificulties going to 24 well format.
-- 
+- [ ] start new plos template: http://blogs.plos.org/plos/2015/01/streamlined-formatting-plos-article/
 sternvolmer6.m
+- [ ] change figure labels to fig1.jpg, fig2.tiff, etc.
+
+
 --------------
 
 - [ ] add column for x values, time points or minutes to percents
