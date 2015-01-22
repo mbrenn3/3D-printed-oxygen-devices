@@ -179,13 +179,16 @@ We demonstrate the addition of gas permeable PDMS (Polydimethylsiloxane) membran
 
 3D printing of microfluidic devices enables rapid, one-step fabrication of complex designs infeasible to make with planar lithography and replica molding techniques.
 In addition, planar lithography is time consuming, requires specialized equipment and facilities, and has a high failure rate.
+It is not unusual for labs to make ten microfluidic devices to guarnantee one will work properly.
 On the other hand, 3D CAD printing allows for unambiguous specifications and nearly eliminates time and effort spent on fabrication which is outsourced to a 3D printing company for around \$100/device \cite{Au2014,Chen2014}.
-Recently 3D printing has emerged as a method for directly printing complete microfluidic devices \cite{Au2014, Chen2014}. 
+3D printing also allows integration of complex geometeries not possible with planar lithograpy, such as hose barbs and leur fittings.
+Dissemination and distributed production is also vastly simplified due to easy shareing the design as a CAD file.
+Due to these inherent advantages 3D printing has emerged as a method for directly printing complete microfluidic devices \cite{Au2014, Chen2014} (Poland guy?, UK guy?) 
 Printing is currently limited in choice of materials when compared to MEMS style fabrication. 
 As of yet there is no widely available methods or materials to facilitate direct printing of gas permeable materials.
+\bf{Motovation for oxygen control, what we have done previously in oxygen and sepcificly the 6-well plate and why we need to do this with a 3D printer. Also a bit on negative pressure Vs. positive pressure.}
 Here we report on the development of 3D printed microfluidic devices for the control of oxygen in cell culture microenvironments.
-We demonstrate a device that nests into a 24 well culture plate.
-%Two devices are demonstrated: an open-well petri dish design and a device that nests into a 24 well culture plate.
+We demonstrate a device that nests into a 24 well culture plate to control gas in each row of the plate independently of the incubators's condition.
 
 % You may title this section "Methods" or "Models". 
 % "Models" is not a valid title for PLoS ONE authors. However, PLoS ONE
@@ -214,11 +217,11 @@ adhering a gas permeable membrane of PDMS to enable diffusion of gas to the cult
 
 \subsection*{Oxygen characterization}
 
-Oxygen was measured with PtOEPK planar sensors that were fixed to the bottom of a 24 well plate. 
+Oxygen was measured with PtOEPK (Pt(II) Octaethylporphine ketone) planar sensors that were fixed to the bottom of a 24 well plate. 
 The intensity of the sensor was measured and correlated to the concentration of oxygen with Stern-Volmer analysis (Figure \ref{piller-well-render-figure}.
 Gas was perfused through the device with negative pressure to eliminate bubbles.
-The inlet tubing was placed in a cone with with a flow that exceed the vacuum flow rate.
-All gas tanks used in the oxygen characterization were 5\% CO2 in addition to the desired gas mix in anticipation of cell culture experiments.
+The inlet tubing was placed in a cone with with a flow that exceed the vacuum flow rate so that the vacuum was always pulling in the gas of interest and not the room air.
+All gas tanks used in the oxygen characterization were 5\% CO2 in addition to the desired gas mix in anticipation of cell culture experiments as CO2 can alter the fluorescence of the PtOEPK.
 
 \subsection*{Cell culture and hypoxia assay}
 
@@ -230,7 +233,8 @@ All gas tanks used in the oxygen characterization were 5\% CO2 in addition to th
 
 The 24 well insert device was quantified with a platinum based (PtOEPK) planar oxygen sensor as shown in Figure \ref{oxygen-char-figure}.
 Oxygen control was able to be controlled in each of the 6 wells equally from one gas input demonstrating the distribution network.
-The device depletes the wells of oxygen for 30 minutes and can then hold the oxygen level near 0\% indefinitely, while 100\% nitrogen is pumped through the device. 
+The device reaches steady state in 30 minutes and can then hold the oxygen level near 0\% indefinitely, while 100\% nitrogen is pumped through the device. 
+\bf{reach different levels.}
 
 % We only support three levels of headings, please do not create a heading level below \subsubsection.
 \subsection*{Subsection 1}
