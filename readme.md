@@ -11,19 +11,15 @@ Inbox
 todo
 ====
 - [ ] analyze data with imageJ
-- [ ] figure out how many more days to do
 
-- [x] order ptoepk
-
-- [ ] begin writing protocol for every step
-
-- [ ] get 24 printed
-
-- [ ] find 3 days of data or take more
- - [ ] where are the plots of the new data? on dell?
-
-- [ ] start publication document
-
+- [ ] make plos template seprate from images
+- [ ] run bubble test
+- [ ] make network figure
+- [ ] well-render with labels and scale bar
+- [ ] network render with labels and scale bar
+- [ ] get megan to write pcr methods, and ask about discussion
+- [ ] write section about shawn's device, and dificulties going to 24 well format.
+- 
 sternvolmer6.m
 --------------
 
