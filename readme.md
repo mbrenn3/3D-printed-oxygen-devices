@@ -14,7 +14,7 @@ todo
 
 - [x] make plos template seprate from images
 - [ ] run bubble test
-- [ ] make network figure
+- [x] make network figure
 - [ ] well-render with labels and scale bar
 - [ ] network render with labels and scale bar
 - [ ] get megan to write pcr methods, and ask about discussion
