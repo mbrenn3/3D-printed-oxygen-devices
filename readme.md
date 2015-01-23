@@ -12,7 +12,7 @@ todo
 ====
 - [ ] analyze data with imageJ
 
-- [ ] make plos template seprate from images
+- [x] make plos template seprate from images
 - [ ] run bubble test
 - [ ] make network figure
 - [ ] well-render with labels and scale bar
