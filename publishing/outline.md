@@ -19,12 +19,10 @@ Design
 
 Figure 1 Devices
 ---------------------
-* cad render crossection of 3 inch petri dish
-  * 3D printed part (channels) + membrane
+
 * cad render crosssection of 24 well plate
   * 3d printed part + membrane + dish
 * cad render of whole 24 well part + photo
-* cad render of whole 3 inch part + photo
 * schematic of distribution network
 
 oxygen characterization methods
