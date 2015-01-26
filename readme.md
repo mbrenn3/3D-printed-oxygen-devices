@@ -24,14 +24,14 @@ sternvolmer6.m
 quick plan
 --------------
 
-find other papers
-
-fix/add citations for shawns devices
-
 spell check
 
 pandoc for dte
 
+--------
+fugutive inks cite
+sources for oxygen in intro
+fix chemical formating CO2
 
 - [ ] find old data that shows the formation of bubbles
 
