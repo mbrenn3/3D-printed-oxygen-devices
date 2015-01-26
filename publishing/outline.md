@@ -20,10 +20,11 @@ Design
 Figure 1 Devices
 ---------------------
 
-* cad render crosssection of 24 well plate
-  * 3d printed part + membrane + dish
-* cad render of whole 24 well part + photo
+* CAD render of 3d printed part + membrane + dish
+* cad render of whole 24 well part
+* photo of whole part
 * schematic of distribution network
+* render of distribution network
 
 oxygen characterization methods
 ------
@@ -43,10 +44,6 @@ Figure 2 Oxygen Characterization
   * timcourse of 24 wells
   * 4 independent conditions
 
-Figure 3 Bio-Verification
---------- 
-what does the data look like?
-
-Figure 4 cell stuff with megan
+Figure 3 cell stuff with megan
 ----------
 get figures
