@@ -186,16 +186,25 @@ Dissemination and distributed production is also vastly simplified due to easy s
 Due to these inherent advantages 3D printing has emerged as a method for directly printing complete microfluidic devices \cite{Au2014, Chen2014} (Poland guy?, UK guy?) 
 Printing is currently limited in choice of materials when compared to MEMS style fabrication. 
 As of yet there is no widely available methods or materials to facilitate direct printing of gas permeable materials.
-Microfluidic cell culture devices are often made out of gas periable PDMS via soft photo lithography.
-PDMS is a convient material for cell studies due to it's biocompatability, optical properties, and gas periability, faciliataing oxygen control of cell environments.
-Oxygen control in cells studies is often overlooked by researchers, but important for mimicing conditions expericend by cells in vivo.
 
-Oxygen control mulitwell inserts have been previously developed cast entirely from PDMS for 6 well culture plates. \cite{Oppegard2009, Oppegard2010}.
-For a similar design to be scaled scaled (replicated) to a 24-well plate the fabriation becomes to tedious and error prone to be done by hand.
-Moveing to 3D printing for the fabrication allowed futher features to be incoporated such as integrated distubtion channels and hose barbs, while elminating fabrication time and yeild.
+Microfluidic cell culture devices are often made out of PDMS via soft photo lithography.
+PDMS is a convient material for cell studies due to it's biocompatability, optical properties, and gas periability, faciliataing oxygen control of cell environments.
+
+Oxygen control in cells studies is often overlooked by researchers, but important for mimicing conditions expericend by cells in vivo.
+Typically cell culture studies are preformed at 21\% oxygen, atmospheric oxygen conditions, although levels that cells experience in vivo are usually less.
+For example tumors, in gereral, are hypoxic as they rapidly out grow their vasculature creating a hypoxic inner region. 
+To better study the role of oxygen levels in cancer gene expression a gas controled culture system is required.
+
+Oxygen control mulitwell inserts have been previously developed, which were cast entirely from PDMS, for 6 well culture plates. \cite{Oppegard2009, Oppegard2010}.
+To replicate the 6-well design for a 24 well format the fabriation via PDMS casting becomes too tedious and to be done by hand and has a high failure rate.
+Utilizing 3D printing for the fabrication allowed futher features to be incoporated such as integrated distubtion channels and hose barbs, while elminating fabrication time and failure rate.
 Although avalible 3D pritable materials are non-gas-permiable, the addition of a PDMS membrane allows gas transfer. 
-The previous 6-well PDMS device featured paralene coating to eliminate exchange of gas in th PDMS bulk. 
-\bf{Motovation for oxygen control, what we have done previously in oxygen and sepcificly the 6-well plate and why we need to do this with a 3D printer. Also a bit on negative pressure Vs. positive pressure. - I don't have any data or any reason that I can prove for doing this. I was orginally afraid that the membranes would come off from the pressure.
+In this case, having a non-gas-permaible material for the bulk is advantagous as it acts as a insulator to gas transfer. 
+Convection and distribution of the gas is done in the non-permiable material eliminating dilution of the gas before reaching the diffusion layer. 
+The previous PDMS devices were paralene coated along the convection channels to eliminate exchange of gas from the PDMS bulk. 
+
+\bf{Motovation for oxygen control, what we have done previously in oxygen and sepcificly the 6-well plate and why we need to do this with a 3D printer. Also a bit on negative pressure Vs. positive pressure. - I don't have any data or any reason that I can prove for doing this. I was orginally afraid that the membranes would come off from the pressure, I am testing it now.
+
 Here we report on the development of 3D printed microfluidic devices for the control of oxygen in cell culture microenvironments.
 We demonstrate a device that nests into a 24 well culture plate to control gas in each row of the plate independently of the incubators's condition.
 
@@ -211,13 +220,15 @@ We demonstrate a device that nests into a 24 well culture plate to control gas i
 %This device allows cell culture in a large open well format compatible with assays requiring cell scraping.
 %The membrane is easily peeled away allowing additional fixing/staining assays to be preformed and can also be replaced with a new membrane to reuse the device. 
 
+\subsection*{Design of Insert}
+
 The device was designed to integrate with a multiwell format, specifically an off-the-shelf 24 well plate. 
-The 24 well plate insert is designed to control gas in 6 wells of a 24 well culture plate from one input, borrowing the working principle of previous work\cite{oppegard2010} and also incorporates integrated hose barbs to simplify device operation.
+The 24 well plate insert is designed to control gas in 6 wells of a 24 well culture plate from one input, borrowing the working principle of previous work\cite{oppegard2010} and also incorporates an integrated distribution network and hose barbs to simplify device operation.
 The pillars extend into each well leaving a $\sim$500 $\mu$m gap for media between the diffusion membrane and the culture surface at the bottom of the well.
 Diffusion occurs rapidly across this gap allowing control of the dissolved gas environment around the cells. 
-A distribution network stems from the central input that equalizes the flow along each path length by varying the channel width to the proximal, intermediate, and distal wells (Figure \ref{device-photos-figure}.
+A distribution network stems from the central input that equalizes the flow along each path length by varying the channel width to the proximal, intermediate, and distal wells (Figure \ref{figure1}.
 
-The device also features a ‘pipe within a pipe’ design so that gas flow enters and leaves the diffusion area in a uniform, and symmetrical flow pattern, which would not be possible with standard lithography and demonstrates the capabilities of 3D printing (Figure \ref{piller-well-render-figure}.
+The device also features a ‘pipe within a pipe’ design so that gas flow enters and leaves the diffusion area in a uniform, and symmetrical flow pattern, which would not be possible with standard lithography and demonstrates the capabilities of 3D printing (Figure \ref{figure1}.
 Again the membranes are adhered with a thin layer of PDMS on the membrane and allowed to cure in place.
 
 The device was printed by Fineline Prototyping in Watershed XC using stereolithography.

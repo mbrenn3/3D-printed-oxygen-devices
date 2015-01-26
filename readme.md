@@ -23,11 +23,6 @@ sternvolmer6.m
 
 quick plan
 --------------
-Edit the rest of the intro
-
-make design sub heading for materials
-
-add distibution network to design in materials
 
 find other papers
 
