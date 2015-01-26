@@ -12,25 +12,31 @@ todo
 ====
 - [ ] analyze data with imageJ
 
-- [x] make plos template seprate from images
 - [ ] run bubble test
-- [x] make network figure
+
 - [ ] well-render with labels and scale bar
-- [ ] network render with labels and scale bar
+
 - [ ] get megan to write pcr methods, and ask about discussion
-- [ ] write section about shawn's device, and dificulties going to 24 well format.
+
 - [ ] start new plos template: http://blogs.plos.org/plos/2015/01/streamlined-formatting-plos-article/
 sternvolmer6.m
-- [ ] change figure labels to fig1.jpg, fig2.tiff, etc.
 
-
+quick plan
 --------------
+Edit the rest of the intro
 
-- [ ] add column for x values, time points or minutes to percents
-- [ ] add row labels to percents
-- [ ] make file run with arguments to point to the file to analyze 
+make design sub heading for materials
 
-- [ ] make a publication plan document
+add distibution network to design in materials
+
+find other papers
+
+fix/add citations for shawns devices
+
+spell check
+
+pandoc for dte
+
 
 - [ ] find old data that shows the formation of bubbles
 
