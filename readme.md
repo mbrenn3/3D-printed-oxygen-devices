@@ -14,8 +14,9 @@ todo
 
 - [ ] run bubble test
 
-- [ ] well-render with labels and scale bar
-
+- [ ] well-render from zoom bridge render
+- [ ] zoom in on bridge render
+- add arrows and labels to figures
 - [ ] get megan to write pcr methods, and ask about discussion
 
 - [ ] start new plos template: http://blogs.plos.org/plos/2015/01/streamlined-formatting-plos-article/
