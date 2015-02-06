@@ -1,8 +1,12 @@
 plan
 ----
-1. get some figures in - then comment out after checking
-2. outline text, methods.
-3. comment out petri dish device
+1. put A,B,C ... in figure 1 
+2. put full device render in figure 1
+3. update figure caption and copy to main.tex
+3. work on data
+
+edit 
+
 
 Intro
 ===

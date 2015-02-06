@@ -142,7 +142,7 @@
 % Title must be 150 characters or less
 \begin{flushleft}
 {\Large
-\textbf{3D-Printed Oxygen Control Devices}
+\textbf{3D-Printed Microfluidic Oxygen Control Devices}
 }
 % Insert Author names, affiliations and corresponding author email.
 \\
@@ -177,17 +177,21 @@ We demonstrate the addition of gas permeable PDMS (Polydimethylsiloxane) membran
 
 \section*{Introduction}
 
+Here we report on the development of 3D printed microfluidic devices for the control of oxygen in cell culture microenvironments.
+We demonstrate a device that nests into a 24 well culture plate to control gas in each row of the plate independently of the incubator's condition.
+
 3D printing of microfluidic devices enables rapid, one-step fabrication of complex designs infeasible to make with planar lithography and replica molding techniques.
 In addition, planar lithography is time consuming, requires specialized equipment and facilities, and has a high failure rate.
-It is not unusual for labs to make ten microfluidic devices to guarantee one will work properly.
-On the other hand, 3D CAD printing allows for unambiguous specifications and nearly eliminates time and effort spent on fabrication which is outsourced to a 3D printing company for around \$100/device \cite{Au2014,Chen2014}.
+It is not unusual for microfluidic labs to make ten microfluidic devices to guarantee one will work properly.
+On the other hand, 3D CAD printing allows for unambiguous specifications and nearly eliminates time and effort spent on fabrication which may be outsourced to a 3D printing company for around \$100/device \cite{Au2014,Chen2014}.
 3D printing also allows integration of complex geometries not possible with planar lithography, such as hose barbs and luer fittings.
-Dissemination and distributed production is also vastly simplified due to easy sharing the design as a CAD file.
+Dissemination and distributed production is also vastly simplified due to easy sharing of the design as a CAD file.
+Microfluidic 3D printed devices have been used in XYZ.
 Due to these inherent advantages 3D printing has emerged as a method for directly printing complete microfluidic devices \cite{Au2014, Chen2014, Shallan2014,Erkal2014,Kitson2014}. 
 Printing is currently limited in choice of materials when compared to MEMS style fabrication. 
 As of yet there is no widely available methods or materials to facilitate direct printing of gas permeable materials.
 
-Microfluidic cell culture devices are often made out of PDMS via soft photo lithography.
+Microfluidic cell culture devices are typically cast in PDMS.
 PDMS is a convenient material for cell studies due to it's biocompatibility, optical properties, and gas permeability, facilitating oxygen control of cell environments.
 
 Oxygen control in cells studies is often overlooked by researchers, but important for mimicking conditions experienced by cells in vivo.
@@ -195,18 +199,14 @@ Typically cell culture studies are preformed at 21\% oxygen, atmospheric oxygen 
 For example tumors, in general, are hypoxic as they rapidly out grow their vasculature creating a hypoxic inner region. 
 To better study the role of oxygen levels in cancer gene expression a gas controlled culture system is required.
 
-Oxygen control mulitwell inserts have been previously developed, which were cast entirely from PDMS, for 6 well culture plates. \cite{Oppegard2009, Oppegard2010}.
-To replicate the 6-well design for a 24 well format the fabrication via PDMS casting becomes too tedious and to be done by hand and has a high failure rate.
-Utilizing 3D printing for the fabrication allowed further features to be incorporated such as integrated distribution channels and hose barbs, while eliminating fabrication time and failure rate.
-Although available 3D printable materials are non-gas-permeable, the addition of a PDMS membrane allows gas transfer. 
-In this case, having a non-gas-permeable material for the bulk is advantageous as it acts as a insulator to gas transfer. 
-Convection and distribution of the gas is done in the non-permeable material eliminating dilution of the gas before reaching the diffusion layer. 
-The previous PDMS devices were parylene coated along the convection channels to eliminate exchange of gas from the PDMS bulk. 
-
----Motovation for oxygen control, what we have done previously in oxygen and sepcificly the 6-well plate and why we need to do this with a 3D printer. Also a bit on negative pressure Vs. positive pressure. - I don't have any data or any reason that I can prove for doing this. I was orginally afraid that the membranes would come off from the pressure, I am testing it now.---
-
-Here we report on the development of 3D printed microfluidic devices for the control of oxygen in cell culture microenvironments.
-We demonstrate a device that nests into a 24 well culture plate to control gas in each row of the plate independently of the incubator's condition.
+Previously, we developed multiwell inserts for 6-well plates that controlled oxygen in a standard off-the self plate \cite{Oppegard2009, Oppegard2010}.
+These devices were completely cast from PDMS and fabricated in a multiple bonding procedure.
+In addition, tubing was used to connect each pillar which became quite cumbersome when moving to a newer 24-well version.
+Utilizing 3D printing for the fabrication allowed further features to be incorporated such as integrated distribution channels to eliminate the connection tubings between wells and hose barbs for better tubing connections, while eliminating fabrication time and failure rate.
+Although available 3D printable materials are non-gas-permeable, the addition of a PDMS membrane following printing the passive microfluidic network is a simple addition allowing gas transfer. 
+In this case, having a gas-impermeable material for the bulk is advantageous as it reduces unwanted gas transfer. 
+The previous PDMS devices were parylene coated along the convection channels to eliminate exchange of gas from the PDMS bulk, which again added to their complexity and is now longer needed.
+Convection and distribution of the gas is done in the impermeable material eliminating dilution of the gas before reaching the diffusion layer. 
 
 % You may title this section "Methods" or "Models". 
 % "Models" is not a valid title for PLoS ONE authors. However, PLoS ONE
