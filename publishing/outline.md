@@ -4,6 +4,7 @@ plan
 2. put full device render in figure 1
 3. update figure caption and copy to main.tex
 3. work on data
+4. organize directory - cad images figures
 
 edit 
 
