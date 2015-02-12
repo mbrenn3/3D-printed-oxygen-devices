@@ -105,6 +105,7 @@
 %\usepackage{setspace} 
 %\doublespacing
 
+\usepackage[version=3]{mhchem}
 
 % Text layout
 \topmargin 0.0cm
@@ -165,6 +166,8 @@ $\ast$ E-mail: Corresponding dte@uic.edu
 Recently 3D printing has emerged as a method for directly printing complete microfluidic chips, 
 although printing materials have been limited to non-oxygen permeable materials.
 We demonstrate the addition of gas permeable PDMS (Polydimethylsiloxane) membranes to 3D printed microfluidic devices as a means to enable oxygen control cell culture studies.
+This was demonstrated on an expanded 24 well version of our previous device which was for a 6-well plate.
+The direct printing allows integrated distribution channels and device geometries not possible with traditional planar lithography.
 With this device oxygen was able to be controlled to 4 different conditions across a 24 well plate demonstrating regulation of oxygen sensitive transcriptional protein in cancer cells.
 This is the first 3D printed device that can be functionalized to control oxygen in cell culture.
 %Two devices are presented and characterized.
@@ -181,6 +184,8 @@ This is the first 3D printed device that can be functionalized to control oxygen
 
 Here we report on the development of 3D printed microfluidic devices for the control of oxygen in cell culture microenvironments.
 We demonstrate a device that nests into a 24 well culture plate to control gas in each row of the plate independently of the incubator's condition.
+This expands on our previous work of a similar device for 6-well plates\cite{Oppegard2009,Oppegard2010}.
+The ability to independentaly control oxygen across each row of the plate enables more efficient experiments as a separate incubator or hypoxic chamber is not needed for each condition.
 
 3D printing of microfluidic devices enables rapid, one-step fabrication of complex designs infeasible to make with planar lithography and replica molding techniques.
 In addition, planar lithography is time consuming, requires specialized equipment and facilities, and has a high failure rate.
@@ -229,14 +234,13 @@ The device also features a pipe within a pipe design so that gas flow enters and
 Again the membranes are adhered with a thin layer of PDMS on the membrane and allowed to cure in place.
 
 The device was printed by Fineline Prototyping in Watershed XC using stereolithography.
-CAD models were designed and printed with microfluidic delivery channels, and then completed by 
-adhering a gas permeable membrane of PDMS to enable diffusion of gas to the culture area. 
+CAD models were designed and printed with microfluidic delivery channels, and then completed by adhering a gas permeable membrane of PDMS to enable diffusion of gas to the culture area using uncured PDMS as an adhesive. 
 
 \subsection*{Oxygen characterization}
 
 Oxygen was measured with PtOEPK (Pt(II) Octaethylporphine ketone) planar sensors that were fixed to the bottom of a 24 well plate. 
 The intensity of the sensor was measured and correlated to the concentration of oxygen with Stern-Volmer analysis (Figure \ref{piller-well-render-figure}.
-Gas was perfused through the device with negative pressure to eliminate bubbles.
+Gas was perfused through the device with negative pressure to reduce membrane debonding and was also found to reduce the number of bubbles formed in the culture chamber.
 The inlet tubing was placed in a cone with with a flow that exceed the vacuum flow rate so that the vacuum was always pulling in the gas of interest and not the room air.
 All gas tanks used in the oxygen characterization were 5\% CO2 in addition to the desired gas mix in anticipation of cell culture experiments as CO2 can alter the fluorescence of the PtOEPK.
 
@@ -245,13 +249,15 @@ All gas tanks used in the oxygen characterization were 5\% CO2 in addition to th
 % Results and Discussion can be combined.
 \section*{Results and Discussion}
 
-%Oxygen was measured in the 3” petri dish device with a commercial fiber­optic probe (Figure 2).
-%Oxygen control was demonstrated with gas flowing through the channel under the PDMS membrane.
 
 The 24 well insert device was quantified with a platinum based (PtOEPK) planar oxygen sensor as shown in Figure \ref{oxygen-char-figure}.
-Oxygen control was able to be controlled in each of the 6 wells equally from one gas input demonstrating the distribution network.
-The device reaches steady state in 30 minutes and can then hold the oxygen level near 0\% indefinitely, while 100\% nitrogen is pumped through the device. 
+Oxygen control was able to be controlled in each of the 6 wells equally from one gas input demonstrating the distribution network worked effectively.
+The device reaches steady state in 30 minutes and can then hold the oxygen level near 0\% indefinitely, while 95\% \ce{N2}, 5\% \ce{CO2} is pumped through the device. 
 \bf{reach different levels.}
+
+mRNA stuff
+
+Future directions: more channel networks, higher format plates, stackable plates with gas connections
 
 % We only support three levels of headings, please do not create a heading level below \subsubsection.
 \subsection*{Subsection 1}
@@ -265,7 +271,7 @@ The device reaches steady state in 30 minutes and can then hold the oxygen level
 \section*{Conclusion}
 3D printing microfluidic chips have been limited to non oxygen permeable materials.
 We demonstrate oxygen control in 3D printed devices the addition of a gas permeable PDMS membrane. 
-Oxygen control is demonstrated in a open well petri dish design and a 24 well plate.
+Oxygen control is demonstrated in a 24 well plate and PCR analysis of X in Y cells shows the device effectively controls oxygen as expected.
 3D printing allows complex designs, integrated tubing connectors, and is comparable in price to standard PDMS fabrication.
 This technique represents a bridge to commercialization where robust devices can be more easily shared and disseminated.
 While injection molding, hot embossing, or other industrial processes are cheaper when making hundreds to thousands of devices, it is not practical to make a injection mold when making tens to hundreds of devices.
