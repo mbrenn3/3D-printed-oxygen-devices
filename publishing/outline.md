@@ -1,7 +1,12 @@
 plan
 ----
-1. put A,B,C ... in figure 1 
-2. put full device render in figure 1
+
+1. add number of expirments to methods
+1. place holder for PCR.
+1. one page of discussion
+1. labels for figure one
+1. order new device to dye and photograph.
+	membrane bound pillar.
 3. update figure caption and copy to main.tex
 3. work on data
 4. organize directory - cad images figures
