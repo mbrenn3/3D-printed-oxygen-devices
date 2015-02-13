@@ -1,10 +1,8 @@
 plan
 ----
 
-1. add number of expirments to methods
-1. place holder for PCR.
 1. one page of discussion
-1. labels for figure one
+
 1. order new device to dye and photograph.
 	membrane bound pillar.
 3. update figure caption and copy to main.tex
