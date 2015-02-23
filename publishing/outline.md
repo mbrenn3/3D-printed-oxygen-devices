@@ -1,13 +1,9 @@
 plan
 ----
-
+1. Fix labels for figure 1
 1. one page of discussion
-
-1. order new device to dye and photograph.
-	membrane bound pillar.
-3. update figure caption and copy to main.tex
-3. work on data
-4. organize directory - cad images figures
+1. work on data
+1. organize directory - cad images figures
 
 edit 
 
