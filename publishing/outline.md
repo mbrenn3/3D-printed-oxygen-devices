@@ -1,11 +1,29 @@
 plan
 ----
-1. Fix labels for figure 1
-1. one page of discussion
-1. work on data
-1. organize directory - cad images figures
+1. 
+1. 
+1. 
+1. 
 
-edit 
+Discusstion
+----------
+
+Advantages over standard microfluidic device
+uses a 24 well plate
+	no clultureing within a micro-device
+	standard protocols / imaging / plate readers can be used
+	* read shawn's paper again
+
+Advantages over previous 6 well design
+	simplified fabrication
+		no parelyne coating
+		no pdms casting
+		no pdms layering fab
+	allows more complicated design without anymore fabrication
+	reusable - replacable membranes
+	shareing of design - drop shipping 
+
+Future development
 
 
 Intro
