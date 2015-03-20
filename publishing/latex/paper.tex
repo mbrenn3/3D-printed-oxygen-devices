@@ -1,0 +1,397 @@
+% Template for PLoS
+% Version 3.1 February 2015
+%
+% To compile to pdf, run:
+% latex plos.template
+% bibtex plos.template
+% latex plos.template
+% latex plos.template
+% dvipdf plos.template
+%
+% % % % % % % % % % % % % % % % % % % % % %
+%
+% -- IMPORTANT NOTE
+%
+% This template contains comments intended 
+% to minimize problems and delays during our production 
+% process. Please follow the template instructions
+% whenever possible.
+%
+% % % % % % % % % % % % % % % % % % % % % % % 
+%
+% Once your paper is accepted for publication, 
+% PLEASE REMOVE ALL TRACKED CHANGES in this file and leave only
+% the final text of your manuscript.
+%
+% There are no restrictions on package use within the LaTeX files except that 
+% no packages listed in the template may be deleted.
+%
+% Please do not include colors or graphics in the text.
+%
+% Please do not create a heading level below \subsection. For 3rd level headings, use \paragraph{}.
+%
+% % % % % % % % % % % % % % % % % % % % % % %
+%
+% -- FIGURES AND TABLES
+%
+% Please include tables/figure captions directly after the paragraph where they are first cited in the text.
+%
+% DO NOT INCLUDE GRAPHICS IN YOUR MANUSCRIPT
+% - Figures should be uploaded separately from your manuscript file. 
+% - Figures generated using LaTeX should be extracted and removed from the PDF before submission. 
+% - Figures containing multiple panels/subfigures must be combined into one image file before submission.
+% For figure citations, please use "Fig." instead of "Figure".
+% See http://www.plosone.org/static/figureGuidelines for PLOS figure guidelines.
+%
+% Tables should be cell-based and may not contain:
+% - tabs/spacing/line breaks within cells to alter layout or alignment
+% - vertically-merged cells (no tabular environments within tabular environments, do not use \multirow)
+% - colors, shading, or graphic objects
+% See http://www.plosone.org/static/figureGuidelines#tables for table guidelines.
+%
+% For tables that exceed the width of the text column, use the adjustwidth environment as illustrated in the example table in text below.
+%
+% % % % % % % % % % % % % % % % % % % % % % % %
+%
+% -- EQUATIONS, MATH SYMBOLS, SUBSCRIPTS, AND SUPERSCRIPTS
+%
+% IMPORTANT
+% Below are a few tips to help format your equations and other special characters according to our specifications. For more tips to help reduce the possibility of formatting errors during conversion, please see our LaTeX guidelines at http://www.plosone.org/static/latexGuidelines
+%
+% Please be sure to include all portions of an equation in the math environment.
+%
+% Do not include text that is not math in the math environment. For example, CO2 will be CO\textsubscript{2}.
+%
+% Please add line breaks to long display equations when possible in order to fit size of the column. 
+%
+% For inline equations, please do not include punctuation (commas, etc) within the math environment unless this is part of the equation.
+%
+% % % % % % % % % % % % % % % % % % % % % % % % 
+%
+% Please contact latex@plos.org with any questions.
+%
+% % % % % % % % % % % % % % % % % % % % % % % %
+
+\documentclass[10pt,letterpaper]{article}
+\usepackage[top=0.85in,left=2.75in,footskip=0.75in]{geometry}
+
+% Use adjustwidth environment to exceed column width (see example table in text)
+\usepackage{changepage}
+
+% Use Unicode characters when possible
+\usepackage[utf8]{inputenc}
+
+% textcomp package and marvosym package for additional characters
+\usepackage{textcomp,marvosym}
+
+% fixltx2e package for \textsubscript
+\usepackage{fixltx2e}
+
+% amsmath and amssymb packages, useful for mathematical formulas and symbols
+\usepackage{amsmath,amssymb}
+\usepackage[version=3]{mhchem}  % added by author
+
+% cite package, to clean up citations in the main text. Do not remove.
+\usepackage{cite}
+
+% Use nameref to cite supporting information files (see Supporting Information section for more info)
+\usepackage{nameref,hyperref}
+
+% line numbers
+\usepackage[right]{lineno}
+
+% ligatures disabled
+\usepackage{microtype}
+\DisableLigatures[f]{encoding = *, family = * }
+
+% rotating package for sideways tables
+\usepackage{rotating}
+
+% Remove comment for double spacing
+%\usepackage{setspace} 
+%\doublespacing
+
+% Text layout
+\raggedright
+\setlength{\parindent}{0.5cm}
+\textwidth 5.25in 
+\textheight 8.75in
+
+% Bold the 'Figure #' in the caption and separate it from the title/caption with a period
+% Captions will be left justified
+\usepackage[aboveskip=1pt,labelfont=bf,labelsep=period,justification=raggedright,singlelinecheck=off]{caption}
+
+% Use the PLoS provided BiBTeX style
+\bibliographystyle{plos2015}
+
+% Remove brackets from numbering in List of References
+\makeatletter
+\renewcommand{\@biblabel}[1]{\quad#1.}
+\makeatother
+
+% Leave date blank
+\date{}
+
+% Header and Footer with logo
+\usepackage{lastpage,fancyhdr,graphicx}
+\usepackage{epstopdf}
+\pagestyle{myheadings}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\includegraphics[width=2.0in]{PLOS-submission.eps}}
+\rfoot{\thepage/\pageref{LastPage}}
+\renewcommand{\footrule}{\hrule height 2pt \vspace{2mm}}
+\fancyheadoffset[L]{2.25in}
+\fancyfootoffset[L]{2.25in}
+\lfoot{\sf PLOS}
+
+%% Include all macros below
+
+\newcommand{\lorem}{{\bf LOREM}}
+\newcommand{\ipsum}{{\bf IPSUM}}
+
+%% END MACROS SECTION
+
+
+\begin{document}
+\vspace*{0.35in}
+
+% Title must be 250 characters or less.
+% Please capitalize all terms in the title except conjunctions, prepositions, and articles.
+\begin{flushleft}
+{\Large
+\textbf\newline{3D-Printed Microfluidic Oxygen Control Devices - Submission to PLOS ONE}
+}
+\newline
+% Insert author names, affiliations and corresponding author email (do not include titles, positions, or degrees).
+\\
+Martin D. Brennan\textsuperscript{1},
+Megan L. Rexius-Hall\textsuperscript{1},
+David T. Eddington\textsuperscript{1,*},
+\\
+\bigskip
+\bf{1} Dept of Bioengineering, University of Illinois at Chicago, Chicago, Illinois, USA
+\\
+\bigskip
+
+% Use the asterisk to denote corresponding authorship and provide email address in note below.
+* dte@uic.edu
+
+\end{flushleft}
+% Please keep the abstract below 300 words
+\section*{Abstract}
+Recently 3D printing has emerged as a method for directly printing complete microfluidic chips, 
+although printing materials have been limited to non-oxygen permeable materials.
+We demonstrate the addition of gas permeable PDMS (Polydimethylsiloxane) membranes to 3D printed microfluidic devices as a means to enable oxygen control cell culture studies.
+This was demonstrated on an expanded 24 well version of our previous device which was for a 6-well plate.
+The direct printing allows integrated distribution channels and device geometries not possible with traditional planar lithography.
+With this device oxygen was able to be controlled to 4 different conditions across a 24 well plate demonstrating regulation of oxygen sensitive transcriptional protein in cancer cells.
+This is the first 3D printed device that can be functionalized to control oxygen in cell culture.
+
+\linenumbers
+
+\section*{Introduction}
+Here we report on the development of 3D printed microfluidic devices for the control of oxygen in cell culture microenvironments.
+We demonstrate a device that nests into a 24 well culture plate to control gas in each row of the plate independently of the incubator's condition.
+This expands on our previous work of a similar device for 6-well plates\cite{Oppegard2009,Oppegard2010}.
+The ability to independently control oxygen across each row of the plate enables more efficient experiments as a separate incubator or hypoxic chamber is not needed for each condition.
+
+3D printing of microfluidic devices enables rapid, one-step fabrication of complex designs infeasible to make with planar lithography and replica molding techniques.
+In addition, planar lithography is time consuming, requires specialized equipment and facilities, and has a high failure rate.
+It is not unusual for microfluidic labs to make ten microfluidic devices to guarantee one will work properly.
+On the other hand, 3D CAD printing allows for unambiguous specifications and nearly eliminates time and effort spent on fabrication which may be outsourced to a 3D printing company for around \$100/device \cite{Au2014}.
+3D printing also allows integration of complex geometries not possible with planar lithography, such as hose barbs and luer fittings.
+Dissemination and distributed production is also vastly simplified due to easy sharing of the design as a CAD file.
+Due to these inherent advantages 3D printing has emerged as a method for directly printing complete microfluidic devices \cite{Au2014, Shallan 2014, Chen2014, Erkal2014,Bhargava2014}. 
+Many prototypical microfluidic device features have been recreated with 3D printing as a proof of concept for this new fabrication technique \cite{Au2014, Shallan2014} including modular re-configurable units\cite{Bhargava2014}.
+3D printed devices have been used for inexpensive and high-throughput reactionware,\cite{Kitson2014}, for a measuring dopamine and ATP levels in biological samples with an integrated electrode\cite{Erkal2014}, as well as a device that allows flow through measurements of ATP to be taken with a plate reader\cite{Chen2014}.
+
+Printing is currently limited in choice of materials compatible with the process and include many proprietary formulations, regardless these have been successfully used in a variety of applications.
+As of yet there is no widely available methods or materials to facilitate direct printing of gas permeable materials although this area is being developed\cite{Femmer2014}.
+Microfluidic cell culture devices are most commonly cast in PDMS.
+PDMS is a convenient material for cell studies due to it's biocompatibility, optical properties, and gas permeability, facilitating oxygen control of cell environments.
+
+Oxygen control in cells studies is often overlooked by researchers, but important for mimicking conditions experienced by cells in vivo.
+Typically cell culture studies are preformed at 21\% oxygen, atmospheric oxygen conditions, although levels that cells experience in vivo are usually less.
+For example tumors, in general, are hypoxic as they rapidly out grow their vasculature creating a hypoxic inner region. 
+To better study the role of oxygen levels in cancer gene expression a gas controlled culture system is required. ----I have to cite all this----
+
+Previously, we developed multiwell inserts for 6-well plates that controlled oxygen in a standard off-the self plate \cite{Oppegard2009, Oppegard2010}.
+These devices were completely cast from PDMS and fabricated in a multiple bonding procedure.
+In addition, tubing was used to connect each pillar which became quite cumbersome when moving to a newer 24-well version.
+Utilizing 3D printing for the fabrication allowed further features to be incorporated such as integrated distribution channels to eliminate the connection tubings between wells and hose barbs for better tubing connections, while eliminating fabrication time and failure rate.
+Although available 3D printable materials are non-gas-permeable, the addition of a PDMS membrane following printing the passive microfluidic network is a simple addition allowing gas transfer. 
+In this case, having a gas-impermeable material for the bulk is advantageous as it reduces unwanted gas transfer. 
+The previous PDMS devices were Parylene coated along the convection channels to eliminate exchange of gas from the PDMS bulk, which again added to their complexity and is now longer needed.
+Convection and distribution of the gas is done in the impermeable material eliminating dilution of the gas before reaching the diffusion layer. 
+
+% You may title this section "Methods" or "Models". 
+% "Models" is not a valid title for PLoS ONE authors. However, PLoS ONE
+% authors may use "Analysis" 
+\section*{Materials and Methods}
+\subsection*{Design of Insert}
+
+The device was designed to integrate with a multiwell format, specifically an off-the-shelf 24 well plate. 
+The 24 well plate insert is designed to control gas in 6 wells of a 24 well culture plate from one input, borrowing the working principle of previous work\cite{Oppegard2010} and also incorporates an integrated distribution network and hose barbs to simplify device operation.
+The pillars extend into each well leaving a $\sim$500 $\mu$m gap for media between the diffusion membrane and the culture surface at the bottom of the well.
+Diffusion occurs rapidly across this gap allowing control of the dissolved gas environment around the cells. 
+A distribution network stems from the central input that equalizes the flow along each path length by varying the channel width to the proximal, intermediate, and distal wells (Fig.~\ref{fig1}).
+
+The device also features a pipe within a pipe design so that gas flow enters and leaves the diffusion area in a uniform, and symmetrical flow pattern, which would not be possible with standard lithography and demonstrates the capabilities of 3D printing (Fig.~\ref{fig1}).
+Again the membranes are adhered with a thin layer of PDMS on the membrane and allowed to cure in place.
+
+The device was printed by Fineline Prototyping in Watershed XC using stereolithography.
+CAD models were designed and printed with microfluidic delivery channels, and then completed by adhering a gas permeable membrane of PDMS to enable diffusion of gas to the culture area using uncured PDMS as an adhesive. 
+
+\begin{figure}[h]
+\caption{
+{\bf Design of 24-well Insert Device.}
+(A) Rendering of whole 3D printed part.
+An inlet and outlet barb allows perfusion of gas to control 6 channels.
+(B) At the bottom of each pillar gas entering from the outer channel flows along the PDMS membrane (blue), which is supported by micropillars, and exhausts via the inner pipe.
+Diffusion occurs rapidly through the PDMS membrane to the cell culture spaced 500 $\mu$m away at the bottom of the well.
+(C) Cross-section demonstrating how the microfluidic distribution network and double pipes are connected. 
+The two adjacent mirrored distribution networks are spaced 1 mm apart along the z-axis allowing them to overlap and enter the separate vertical pipes.
+The arrows indicate the flow direction.
+The incoming gas enters enters the outer pipe on its way to the bottom of the well and returns through the inner pipe.
+(D) Photo of the device with dyed channels in a 24-well plate.
+(E) Photo of the device from the bottom with four independent channel networks.
+(F) Photo of the printed distribution networks.
+}
+\label{fig1}
+\end{figure}
+
+\subsection*{Oxygen characterization}
+
+Oxygen was measured with PtOEPK (Pt(II) Octaethylporphine ketone) planar sensors that were fixed to the bottom of a 24 well plate. 
+The intensity of the sensor was measured and correlated to the concentration of oxygen with Stern-Volmer analysis (Fig.~\ref{fig2}).
+Gas was perfused through the device with negative pressure to reduce membrane debonding and was also found to reduce the number of bubbles formed in the culture chamber.
+The inlet tubing was placed in a cone with with a flow that exceed the vacuum flow rate so that the vacuum was always pulling in the gas of interest and not the room air.
+All gas tanks used in the oxygen characterization were 5\% CO2 in addition to the desired gas mix in anticipation of cell culture experiments as CO2 can alter the fluorescence of the PtOEPK.
+Intensity measurements were taken every five minutes for each well.
+Initially the inlets are fed with a 5\% \ce{CO2}, bal. air tank until the intensity stabilized.
+The inlets are then switched to the control gas of either 0, 5 10 or 21\% \ce{O2}, each with 5\% \ce{CO2} and balanced with \ce{N2}.
+Intensity measurements are then taken every five minutes for six hours.
+The this entire procedure was repeated three times for and N of three. 
+
+\begin{figure}[h]
+\caption{
+{\bf Oxygen Characterization.} 
+(A) Time course data of oxygen being evacuated from the culture area as 0\% oxygen gas is perfused through the device.
+Error bars are the standard deviation N=3.
+(B) Four oxygen conditions are demonstrated in a 24-well plate.
+Each 6-well row of the plate can be controlled independently.  
+Mean N=3 error bars not included.
+}
+\label{fig2}
+\end{figure}
+
+\subsection*{Cell culture and hypoxia assay}
+
+Cancer cells were seeded in a 24 well plate.
+When they reached $\sim$70\% confluency the 24-well insert is placed in the plate and the gases are perfused through the device in the same scheme as in the oxygen characterization.
+Each row of six wells experiences either 0, 5, 10 or 21\% \ce{O2}, with 5\% \ce{CO2} and balanced nitrogen.
+The assembly is placed in an incubator at $37\,^{\circ}\mathrm{C}$ for six hours (Fig.~\ref{fig3}). 
+
+\begin{figure}[h]
+\caption{
+{\bf PCR Data.}  VEGF expression in A549 cells after exposure to different oxygen conditions.
+}
+\label{fig3}
+\end{figure}
+
+% For figure citations, please use "Fig." instead of "Figure".
+%Nulla mi mi, Fig.~\ref{fig1} venenatis sed ipsum varius, volutpat euismod diam. Proin rutrum vel massa non gravida. Quisque tempor sem et dignissim rutrum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at justo vitae nulla elementum commodo eu id massa. In vitae diam ac augue semper tincidunt eu ut eros. Fusce fringilla erat porttitor lectus cursus, \nameref{S1_Video} vel sagittis arcu lobortis. Aliquam in enim semper, aliquam massa id, cursus neque. Praesent faucibus semper libero.
+
+%\begin{enumerate}
+%\item{react}
+%\item{diffuse free particles}
+%\item{increment time by dt and go to 1}
+%\end{enumerate}
+
+% Results and Discussion can be combined.
+\section*{Results}
+\subsection*{Oxygen Control}
+Oxygen control in the 24-well insert device was quantified with a platinum based (PtOEPK) planar oxygen sensor placed at the bottom of the well, as shown in Fig.~\ref{fig2}.
+Oxygen was able to be controlled in each of the 6 wells equally from one gas input demonstrating the distribution network worked effectively.
+The device reaches steady state in 30 minutes and can then hold the oxygen level near 0\% \ce{O2} indefinitely, while 95\% \ce{N2}, 5\% \ce{CO2} is pumped through the device. 
+A different gas condition can be used in each separate iteration of the 6-well unit allowing 6 technical replicates of up to 4 different gas conditions in one 24 well plate (Fig.~\ref{fig2}).
+
+\subsection*{Bioverifcation}
+The devices ability to control the gas environment is demonstrated with hypoxia influenced expression of mRNA in cancer cells (Fig.~\ref{fig3}).
+Oxygen levels of 21, 10, 5, and 0\% are applied to each set of 6 wells. 
+
+More mRNA stuff for Megan to expand (Fig.~\ref{fig3}).
+
+\subsection*{Discussion}
+This new iteration of the multi-well insert for oxygen control maintains the convenient features of the previous design.
+Oxygen control is preformed in an off-the-shelf culture plate allowing standard protocols to be used for analysis assays or imaging where additional protocols are often required when cells are seeded within microfluidic chips.
+
+This 3D-printed device improves on our previous design in a number of ways.
+First, the fabrication is greatly simplified. 
+No microfabrication, PDMS molding or Parylene coating is required.
+Additionally, the non-permanent adhesion of membranes to the 3D-part allow them to be removed and replaced if they are damaged.
+In PDMS devices the layers are bonded permanently via plasma bonding so damage to a membrane is not repairable.
+3D-printing also enables higher levels of intricacy without any additional fabrication allowing us to include the distribution network and the 'pipe within a pipe' design. 
+A comparable PDMS device would require several additional microfabricated layers to be manually aligned to reproduce just the distribution network.
+
+Moving forward with additive manufacturing of microfluidic devices is desirable as it will enable highly integrated designs without any additional fabrication.
+For this device an on-device gas mixer could allow more conditions in a single plate, perhaps even one per well or even gradients within wells while reducing the number of gas tanks required.
+This design could also be applied to higher format plates such as 96-well plates.
+
+
+%\begin{table}[!ht]
+%\begin{adjustwidth}{-2.25in}{0in} % Comment out/remove adjustwidth environment if table fits in text column.
+%\caption{
+%{\bf Table caption Nulla mi mi, venenatis sed ipsum varius, volutpat euismod diam.}}
+%\begin{tabular}{|l|l|l|l|l|l|l|l|}
+%\hline
+%\multicolumn{4}{|l|}{\bf Heading1} & \multicolumn{4}{|l|}{\bf Heading2}\\ \hline
+%$cell1 row1$ & cell2 row 1 & cell3 row 1 & cell4 row 1 & cell5 row 1 & cell6 row 1 & cell7 row 1 & cell8 row 1\\ %\hline
+%$cell1 row2$ & cell2 row 2 & cell3 row 2 & cell4 row 2 & cell5 row 2 & cell6 row 2 & cell7 row 2 & cell8 row 2\\ %\hline
+%$cell1 row3$ & cell2 row 3 & cell3 row 3 & cell4 row 3 & cell5 row 3 & cell6 row 3 & cell7 row 3 & cell8 row 3\\ %\hline
+%\end{tabular}
+%\begin{flushleft} Table notes Phasellus venenatis, tortor nec vestibulum mattis, massa tortor interdum felis, nec %pellentesque metus tortor nec nisl. Ut ornare mauris tellus, vel dapibus arcu suscipit sed.
+%\end{flushleft}
+%\label{table1}
+%\end{adjustwidth}
+%\end{table}
+
+
+% Please do not create a heading level below \subsection. For 3rd level headings, use \paragraph{}. 
+For more information, see \nameref{S1_Text}.
+
+%\section*{Supporting Information}
+
+% Include only the SI item label in the subsection heading. Use the \nameref{label} command to cite SI items in the text.
+%\subsection*{S1 Video}
+%\label{S1_Video}
+%{\bf Bold the first sentence.}  Maecenas convallis mauris sit amet sem ultrices gravida. Etiam eget sapien nibh. %Sed ac ipsum eget enim egestas ullamcorper nec euismod ligula. Curabitur fringilla pulvinar lectus consectetur %pellentesque.
+
+%\subsection*{S1 Text}
+%\label{S1_Text}
+%{\bf Lorem Ipsum.} Maecenas convallis mauris sit amet sem ultrices gravida. Etiam eget sapien nibh. Sed ac %ipsum eget enim egestas ullamcorper nec euismod ligula. Curabitur fringilla pulvinar lectus consectetur %pellentesque.
+
+%\subsection*{S1 Fig}
+%\label{S1_Fig}
+%{\bf Lorem Ipsum.} Maecenas convallis mauris sit amet sem ultrices gravida. Etiam eget sapien nibh. Sed ac %ipsum eget enim egestas ullamcorper nec euismod ligula. Curabitur fringilla pulvinar lectus consectetur %pellentesque.
+
+%\subsection*{S2 Fig}
+%\label{S2_Fig}
+%{\bf Lorem Ipsum.} Maecenas convallis mauris sit amet sem ultrices gravida. Etiam eget sapien nibh. Sed ac %ipsum eget enim egestas ullamcorper nec euismod ligula. Curabitur fringilla pulvinar lectus consectetur %pellentesque.
+
+%\subsection*{S1 Table}
+%\label{S1_Table}
+%{\bf Lorem Ipsum.} Maecenas convallis mauris sit amet sem ultrices gravida. Etiam eget sapien nibh. Sed ac %ipsum eget enim egestas ullamcorper nec euismod ligula. Curabitur fringilla pulvinar lectus consectetur %pellentesque.
+
+\section*{Acknowledgments}
+This work funded by NSF 1253060.
+
+\nolinenumbers
+
+\section*{References}
+\bibliographystyle{plos2015.bst}
+\bibliography{references}
+
+\end{document}
+

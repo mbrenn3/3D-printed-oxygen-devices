@@ -1,8 +1,8 @@
 plan
 ----
 1. add new folck paper
-1. 
-1. 
+1. add roshe paper 3D
+1. get new plos template
 1. 
 
 Discusstion
