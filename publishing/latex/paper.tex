@@ -196,10 +196,10 @@ We demonstrate a device that nests into a 24 well culture plate to control gas i
 This expands on our previous work of a similar device for 6-well plates\cite{Oppegard2009,Oppegard2010}.
 The ability to independently control oxygen across each row of the plate enables more efficient experiments as a separate incubator or hypoxic chamber is not needed for each condition.
 
-3D printing of microfluidic devices enables rapid, one-step fabrication of complex designs infeasible to make with planar lithography and replica molding techniques.
+3D printing of microfluidic devices enables rapid, one-step fabrication of complex designs infeasible to make with planar lithography and replica molding techniques\cite{Waldbaur2011,Chen2014a}.
 In addition, planar lithography is time consuming, requires specialized equipment and facilities, and has a high failure rate.
 It is not unusual for microfluidic labs to make ten microfluidic devices to guarantee one will work properly.
-On the other hand, 3D CAD printing allows for unambiguous specifications and nearly eliminates time and effort spent on fabrication which may be outsourced to a 3D printing company for around \$100/device \cite{Au2014}.
+On the other hand, 3D CAD printing allows for unambiguous specifications and nearly eliminates time and effort spent on fabrication which may be outsourced to a 3D printing company for around \$200/device \cite{Au2014}.
 3D printing also allows integration of complex geometries not possible with planar lithography, such as hose barbs and luer fittings.
 Dissemination and distributed production is also vastly simplified due to easy sharing of the design as a CAD file.
 Due to these inherent advantages 3D printing has emerged as a method for directly printing complete microfluidic devices \cite{Au2014,Comina2014, Chen2014,Shallan2014,Bhargava2014}. 
@@ -208,14 +208,14 @@ Many prototypical microfluidic device features have been recreated with 3D print
 Other 3D printed fluidic devices include pneumatic valves\cite{Au2015} a custom NMR cell\cite{Causier2015}, a rapid reconstitution package for lyophilized drugs\cite{Chi2014} and flow plates for a water electrolysis system\cite{Chisholm2014}.
 
 Printing is currently limited in choice of materials compatible with the process and include many proprietary formulations, regardless these have been successfully used in a variety of applications.
-New techniques for using a 3D printed molds to produce devices\cite{Mcdonald2002,King2014,Comina2014a,Gregory2013} are also being developed, including fugitive ink methods\cite{Therriault2003,Miller2012,Bhargava2015}.
-As of yet there is no widely available methods or materials to facilitate direct printing of gas permeable materials although this area is being developed\cite{Femmer2014}.
+New techniques for using a 3D printed molds to produce devices\cite{Mcdonald2002,Gregory2013,King2014,Comina2014a} are also being developed, including fugitive ink methods\cite{Therriault2003,Miller2012,Bhargava2015}.
+As of yet there is no widely available methods or materials to facilitate direct printing of gas permeable materials although this area is being developed\cite{Femmer2014a}.
 Microfluidic cell culture devices are most commonly cast in PDMS as it is a convenient material for cell studies due to it's biocompatibility, optical properties, and gas permeability, facilitating oxygen control of cell environments\cite{Sia2003,Brennan2014}.
 
 Oxygen control in cells studies is often overlooked by researchers, but important for mimicking conditions experienced by cells in vivo.
-Typically cell culture studies are preformed at 21\% oxygen, atmospheric oxygen conditions, although levels that cells experience in vivo are usually less.
-For example tumors, in general, are hypoxic as they rapidly out grow their vasculature creating a hypoxic inner region. 
-To better study the role of oxygen levels in cancer gene expression a gas controlled culture system is required. ----I have to cite all this----
+Typically cell culture studies are preformed at 21\% oxygen, atmospheric oxygen conditions, although levels that cells experience in vivo are usually less\cite{Brennan2014}.
+For example tumors, in general, are hypoxic as they rapidly out grow their vasculature creating a hypoxic inner region\cite{Kumar2014}.
+To better study the role of oxygen levels in cancer gene expression a gas controlled culture system is required.
 
 Previously, we developed multiwell inserts for 6-well plates that controlled oxygen in a standard off-the self plate \cite{Oppegard2009, Oppegard2010}.
 These devices were completely cast from PDMS and fabricated in a multiple bonding procedure.
@@ -340,6 +340,13 @@ Moving forward with additive manufacturing of microfluidic devices is desirable 
 For this device an on-device gas mixer could allow more conditions in a single plate, perhaps even one per well or even gradients within wells while reducing the number of gas tanks required.
 This design could also be applied to higher format plates such as 96-well plates.
 
+\section*{Conclusion}
+3D printing microfluidic chips have been limited to non oxygen permeable materials. We demonstrate oxygen control in 3D printed devices the addition of a gas permeable PDMS membrane. 
+Oxygen control is demonstrated in a 24 well plate and PCR analysis of X in Y cells shows the device effectively controls oxygen as expected. 
+3D printing allows complex designs, integrated tubing connectors, and is comparable in price to standard PDMS fabrication. 
+This technique represents a bridge to commercialization where robust devices can be more easily shared and disseminated. 
+While injection molding, hot embossing, or other industrial processes are cheaper when making hundreds to thousands of devices, it is not practical to make a injection mold when making tens to hundreds of devices. 
+In addition, PDMS fabrication would be too time consuming, expensive, and the failure rate would be unacceptable. 3D printing is a perfect solution to these device fabrication needs.
 
 %\begin{table}[!ht]
 %\begin{adjustwidth}{-2.25in}{0in} % Comment out/remove adjustwidth environment if table fits in text column.
@@ -360,7 +367,7 @@ This design could also be applied to higher format plates such as 96-well plates
 
 
 % Please do not create a heading level below \subsection. For 3rd level headings, use \paragraph{}. 
-For more information, see \nameref{S1_Text}.
+%For more information, see \nameref{S1_Text}.
 
 %\section*{Supporting Information}
 
@@ -390,7 +397,7 @@ This work funded by NSF 1253060.
 
 \nolinenumbers
 
-\section*{References}
+%\section*{References}
 \bibliographystyle{plos2015.bst}
 \bibliography{references}
 
