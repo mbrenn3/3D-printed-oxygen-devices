@@ -180,20 +180,20 @@ David T. Eddington\textsuperscript{1,*},
 \end{flushleft}
 % Please keep the abstract below 300 words
 \section*{Abstract}
-Recently 3D printing has emerged as a method for directly printing complete microfluidic chips, 
-although printing materials have been limited to non-oxygen permeable materials.
+Recently 3D printing has emerged as a method for directly printing complete microfluidic chips, although printing materials have been limited to non-oxygen permeable materials.
 We demonstrate the addition of gas permeable PDMS (Polydimethylsiloxane) membranes to 3D printed microfluidic devices as a means to enable oxygen control cell culture studies.
-This was demonstrated on an expanded 24 well version of our previous device which was for a 6-well plate.
+The incorporation of a 3D-printed device and gas-permeable membranes was demonstrated on an expanded 24-well version of our previous entirely PDMS device which was an insert for a 6-well plate.
 The direct printing allows integrated distribution channels and device geometries not possible with traditional planar lithography.
-With this device oxygen was able to be controlled to 4 different conditions across a 24 well plate demonstrating regulation of oxygen sensitive transcriptional protein in cancer cells.
-This is the first 3D printed device that can be functionalized to control oxygen in cell culture.
+With this device, four different oxygen conditions were able to be controlled and six wells were maintained under each oxygen condition. 
+We domonstrate enhanced transcrtiption of VEGFA (vascular endothelial growth factor A) gene with decreasing oxygen levels in human lung adenocarcinoma cells.
+This is the first 3D-printed device that can be functionalized to control oxygen in cell culture.
 
 \linenumbers
 
 \section*{Introduction}
 Here we report on the development of 3D printed microfluidic devices for the control of oxygen in cell culture microenvironments.
-We demonstrate a device that nests into a 24 well culture plate to control gas in each row of the plate independently of the incubator's condition.
-This expands on our previous work of a similar device for 6-well plates\cite{Oppegard2009,Oppegard2010}.
+We demonstrate a device that nests into a 24-well culture plate to control gas in each row of the plate independently of the incubator's condition.
+This expands on our previous work of a device fabricated using PDMS molds and planar lithography for 6-well plates\cite{Oppegard2009,Oppegard2010}.
 The ability to independently control oxygen across each row of the plate enables more efficient experiments as a separate incubator or hypoxic chamber is not needed for each condition.
 
 3D printing of microfluidic devices enables rapid, one-step fabrication of complex designs infeasible to make with planar lithography and replica molding techniques\cite{Waldbaur2011,Chen2014a}.
@@ -207,22 +207,25 @@ Many prototypical microfluidic device features have been recreated with 3D print
 3D printed devices have been used for neuroengineering applications\cite{Tek2008}, inexpensive and high-throughput reactionware,\cite{Kitson2012,Symes2012, Kitson2014}, culturing and imaging arrays of seedlings\cite{Busch2012}, measuring dopamine and ATP levels in biological samples with an integrated electrode\cite{Erkal2014}, or plate reader\cite{Chen2014}, and a bacteria separation flow assay\cite{Lee2014a,Lee2015}. 
 Other 3D printed fluidic devices include pneumatic valves\cite{Au2015} a custom NMR cell\cite{Causier2015}, a rapid reconstitution package for lyophilized drugs\cite{Chi2014} and flow plates for a water electrolysis system\cite{Chisholm2014}.
 
-Printing is currently limited in choice of materials compatible with the process and include many proprietary formulations, regardless these have been successfully used in a variety of applications.
-New techniques for using a 3D printed molds to produce devices\cite{Mcdonald2002,Gregory2013,King2014,Comina2014a} are also being developed, including fugitive ink methods\cite{Therriault2003,Miller2012,Bhargava2015}.
-As of yet there is no widely available methods or materials to facilitate direct printing of gas permeable materials although this area is being developed\cite{Femmer2014a}.
+Printing is currently limited in choice of substate compatible with the 3D printing process.
+Substrate options include many proprietary formulations which have been successfully used in a variety of applications.
+New techniques for using a 3D-printed molds to produce devices\cite{Mcdonald2002,Gregory2013,King2014,Comina2014a} are also being developed, including fugitive ink methods\cite{Therriault2003,Miller2012,Bhargava2015}.
+To date, there are no widely available methods or materials to facilitate direct printing of gas permeable materials although this area is being developed\cite{Femmer2014a}.
 Microfluidic cell culture devices are most commonly cast in PDMS as it is a convenient material for cell studies due to it's biocompatibility, optical properties, and gas permeability, facilitating oxygen control of cell environments\cite{Sia2003,Brennan2014}.
 
 Oxygen control in cells studies is often overlooked by researchers, but important for mimicking conditions experienced by cells in vivo.
-Typically cell culture studies are preformed at 21\% oxygen, atmospheric oxygen conditions, although levels that cells experience in vivo are usually less\cite{Brennan2014}.
-For example tumors, in general, are hypoxic as they rapidly out grow their vasculature creating a hypoxic inner region\cite{Kumar2014}.
+Typically cell culture studies are preformed at 21\% oxygen, atmospheric oxygen conditions, although levels that cells experience in vivo are less than 21\% \cite{Brennan2014}.
+For example tumors are generally hypoxic as cancer cells rapidly out grow their vasculature creating a poorly perfused, hypoxic inner region\cite{Kumar2014}.
+Studying cancer cells under controlled hypoxic conditions is important in understanding the pathophysiology because research has shown hypoxia may enhance aggressive phenotypes, tumor progression, metastasis, ans resistance to therapy.
+Hypoxia is known to alter the transcription of many genes which are under the activity of the HIF (hypoxia inducible factor) family of transcriptional factors.
 To better study the role of oxygen levels in cancer gene expression a gas controlled culture system is required.
 
-Previously, we developed multiwell inserts for 6-well plates that controlled oxygen in a standard off-the self plate \cite{Oppegard2009, Oppegard2010}.
+Previously, we developed multiwell inserts for 6-well plates that controlled oxygen in a standard off-the shelf well plate \cite{Oppegard2009, Oppegard2010}.
 These devices were completely cast from PDMS and fabricated in a multiple bonding procedure.
 In addition, tubing was used to connect each pillar which became quite cumbersome when moving to a newer 24-well version.
 Utilizing 3D printing for the fabrication allowed further features to be incorporated such as integrated distribution channels to eliminate the connection tubings between wells and hose barbs for better tubing connections, while eliminating fabrication time and failure rate.
 Although available 3D printable materials are non-gas-permeable, the addition of a PDMS membrane following printing the passive microfluidic network is a simple addition allowing gas transfer. 
-In this case, having a gas-impermeable material for the bulk is advantageous as it reduces unwanted gas transfer. 
+In this case, having a gas-impermeable material for the bulk is advantageous as it reduces unwanted gas transfer from the bulk material prior to the gas exchange interface.
 The previous PDMS devices were Parylene coated along the convection channels to eliminate exchange of gas from the PDMS bulk, which again added to their complexity and is now longer needed.
 Convection and distribution of the gas is done in the impermeable material eliminating dilution of the gas before reaching the diffusion layer. 
 
@@ -232,17 +235,19 @@ Convection and distribution of the gas is done in the impermeable material elimi
 \section*{Materials and Methods}
 \subsection*{Design of Insert}
 
+CAD models were designed in Autodesk and Blender and printed via stereolithography in Watershed XC by Fineline Prototyping.
+The 3D part contained the microfluidic delivery channels, and was completed by adhering a gas permeable membrane of PDMS to enable diffusion of gas to the culture area using uncured PDMS as an adhesive.
+The PDMS membrane components are attached to the 3D-printed network with an additional, thin layer of PDMS that was applied as an adhesive to the membrane, secured in position on the end of each pillar, and allowed to cure in place.
+
 The device was designed to integrate with a multiwell format, specifically an off-the-shelf 24 well plate. 
-The 24 well plate insert is designed to control gas in 6 wells of a 24 well culture plate from one input, borrowing the working principle of previous work\cite{Oppegard2010} and also incorporates an integrated distribution network and hose barbs to simplify device operation.
+The 24 well plate insert is designed to control gas in 4 rows of 6 wells each. 
+Each of the 4 rows can be controlled independently from an input and also incorporates an integrated distribution network and hose barbs to simplify device operation.
 The pillars extend into each well leaving a $\sim$500 $\mu$m gap for media between the diffusion membrane and the culture surface at the bottom of the well.
 Diffusion occurs rapidly across this gap allowing control of the dissolved gas environment around the cells. 
 A distribution network stems from the central input that equalizes the flow along each path length by varying the channel width to the proximal, intermediate, and distal wells (Fig.~\ref{fig1}).
 
 The device also features a pipe within a pipe design so that gas flow enters and leaves the diffusion area in a uniform, and symmetrical flow pattern, which would not be possible with standard lithography and demonstrates the capabilities of 3D printing (Fig.~\ref{fig1}).
-Again the membranes are adhered with a thin layer of PDMS on the membrane and allowed to cure in place.
 
-The device was printed by Fineline Prototyping in Watershed XC using stereolithography.
-CAD models were designed and printed with microfluidic delivery channels, and then completed by adhering a gas permeable membrane of PDMS to enable diffusion of gas to the culture area using uncured PDMS as an adhesive. 
 
 \begin{figure}[h]
 \caption{
