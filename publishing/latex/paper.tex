@@ -207,7 +207,7 @@ Many prototypical microfluidic device features have been recreated with 3D print
 3D printed devices have been used for neuroengineering applications\cite{Tek2008}, inexpensive and high-throughput reactionware,\cite{Kitson2012,Symes2012, Kitson2014}, culturing and imaging arrays of seedlings\cite{Busch2012}, measuring dopamine and ATP levels in biological samples with an integrated electrode\cite{Erkal2014}, or plate reader\cite{Chen2014}, and a bacteria separation flow assay\cite{Lee2014a,Lee2015}. 
 Other 3D printed fluidic devices include pneumatic valves\cite{Au2015} a custom NMR cell\cite{Causier2015}, a rapid reconstitution package for lyophilized drugs\cite{Chi2014} and flow plates for a water electrolysis system\cite{Chisholm2014}.
 
-Printing is currently limited in choice of substate compatible with the 3D printing process.
+Printing is currently limited in choice of substrate compatible with the 3D printing process.
 Substrate options include many proprietary formulations which have been successfully used in a variety of applications.
 New techniques for using a 3D-printed molds to produce devices\cite{Mcdonald2002,Gregory2013,King2014,Comina2014a} are also being developed, including fugitive ink methods\cite{Therriault2003,Miller2012,Bhargava2015}.
 To date, there are no widely available methods or materials to facilitate direct printing of gas permeable materials although this area is being developed\cite{Femmer2014a}.
@@ -233,11 +233,7 @@ Convection and distribution of the gas is done in the impermeable material elimi
 % "Models" is not a valid title for PLoS ONE authors. However, PLoS ONE
 % authors may use "Analysis" 
 \section*{Materials and Methods}
-\subsection*{Design of Insert}
-
-CAD models were designed in Autodesk and Blender and printed via stereolithography in Watershed XC by Fineline Prototyping.
-The 3D part contained the microfluidic delivery channels, and was completed by adhering a gas permeable membrane of PDMS to enable diffusion of gas to the culture area using uncured PDMS as an adhesive.
-The PDMS membrane components are attached to the 3D-printed network with an additional, thin layer of PDMS that was applied as an adhesive to the membrane, secured in position on the end of each pillar, and allowed to cure in place.
+\subsection*{Design of insert}
 
 The device was designed to integrate with a multiwell format, specifically an off-the-shelf 24 well plate. 
 The 24 well plate insert is designed to control gas in 4 rows of 6 wells each. 
@@ -245,7 +241,6 @@ Each of the 4 rows can be controlled independently from an input and also incorp
 The pillars extend into each well leaving a $\sim$500 $\mu$m gap for media between the diffusion membrane and the culture surface at the bottom of the well.
 Diffusion occurs rapidly across this gap allowing control of the dissolved gas environment around the cells. 
 A distribution network stems from the central input that equalizes the flow along each path length by varying the channel width to the proximal, intermediate, and distal wells (Fig.~\ref{fig1}).
-
 The device also features a pipe within a pipe design so that gas flow enters and leaves the diffusion area in a uniform, and symmetrical flow pattern, which would not be possible with standard lithography and demonstrates the capabilities of 3D printing (Fig.~\ref{fig1}).
 
 
@@ -267,12 +262,21 @@ The incoming gas enters enters the outer pipe on its way to the bottom of the we
 \label{fig1}
 \end{figure}
 
+\subsection*{Fabrication of the insert}
+
+CAD models were designed in Autodesk and Blender and printed via stereolithography in Watershed XC by Fineline Prototyping.
+The 3D part contained the microfluidic delivery channels, and was completed by adhering a gas permeable membrane of PDMS to enable diffusion of gas to the culture area. 
+The PDMS membranes are fabricated by spin coating PDMS on a silicon wafer at 900 RPM to a thickness of $\sim$100 $\mu$m and curing at $70\,^{\circ}$ C.
+The PDMS membrane is cut to size and attached to the 3D-printed network with an additional, thin layer of PDMS that was applied as an adhesive to the membrane, secured in position on the end of each pillar, and allowed to cure in place.
+
 \subsection*{Oxygen characterization}
 
-Oxygen was measured with PtOEPK (Pt(II) Octaethylporphine ketone) planar sensors that were fixed to the bottom of a 24 well plate. 
+Oxygen was measured with PtOEPK (Pt(II) Octaethylporphine ketone) planar sensors that were fixed to the bottom of a 24-well plate. 
 The intensity of the sensor was measured and correlated to the concentration of oxygen with Stern-Volmer analysis (Fig.~\ref{fig2}).
-Gas was perfused through the device with negative pressure to reduce membrane debonding and was also found to reduce the number of bubbles formed in the culture chamber.
-The inlet tubing was placed in a cone with with a flow that exceed the vacuum flow rate so that the vacuum was always pulling in the gas of interest and not the room air.
+Gas was pulled through the device with negative pressure as a precaution to avoid bulging or detaching membranes, and bubble formation in the culture media.
+The outlet ports were connected to a water aspirator which pulled gas through the device from the inlet ports. 
+The inlet tubing was placed in an open cone that was flooded with gas from a tank with a flow that exceed the vacuum flow.
+ rate so that the vacuum was always pulling in the gas of interest and not the room air.
 All gas tanks used in the oxygen characterization were 5\% CO2 in addition to the desired gas mix in anticipation of cell culture experiments as CO2 can alter the fluorescence of the PtOEPK.
 Intensity measurements were taken every five minutes for each well.
 Initially the inlets are fed with a 5\% \ce{CO2}, bal. air tank until the intensity stabilized.
