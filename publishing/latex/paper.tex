@@ -273,16 +273,16 @@ The PDMS membrane is cut to size and attached to the 3D-printed network with an 
 
 Oxygen was measured with PtOEPK (Pt(II) Octaethylporphine ketone) planar sensors that were fixed to the bottom of a 24-well plate. 
 The intensity of the sensor was measured and correlated to the concentration of oxygen with Stern-Volmer analysis (Fig.~\ref{fig2}).
-Gas was pulled through the device with negative pressure as a precaution to avoid bulging or detaching membranes, and bubble formation in the culture media.
-The outlet ports were connected to a water aspirator which pulled gas through the device from the inlet ports. 
-The inlet tubing was placed in an open cone that was flooded with gas from a tank with a flow that exceed the vacuum flow.
- rate so that the vacuum was always pulling in the gas of interest and not the room air.
-All gas tanks used in the oxygen characterization were 5\% CO2 in addition to the desired gas mix in anticipation of cell culture experiments as CO2 can alter the fluorescence of the PtOEPK.
-Intensity measurements were taken every five minutes for each well.
+Gas was pulled through the device with negative pressure as a precaution to avoid bulging or detaching membranes, as well as bubble formation in the culture media.
+The outlet ports were connected to a water aspirator which pulled gas through the device from the inlet ports.
+The inlet tubing was placed in an open cone that was flooded with gas from a tank with a flow that exceed the vacuum flow so that the gas of interest is pulled into the inlet rather then room air.
+In this way, the pressure and therefore flow rate is equal across the 4 networks without having to balance flow from 4 pressurized sources, yet different gases of interest can be perfused via vacuum.
+
 Initially the inlets are fed with a 5\% \ce{CO2}, bal. air tank until the intensity stabilized.
 The inlets are then switched to the control gas of either 0, 5 10 or 21\% \ce{O2}, each with 5\% \ce{CO2} and balanced with \ce{N2}.
 Intensity measurements are then taken every five minutes for six hours.
-The this entire procedure was repeated three times for and N of three. 
+All gas tanks used in the oxygen characterization were 5\% \ce{CO2} in addition to the desired gas mix in anticipation of cell culture experiments as \ce{CO2} can alter the fluorescence of the PtOEPK.
+The this entire procedure was repeated three times for and sample size of three. 
 
 \begin{figure}[h]
 \caption{
@@ -296,12 +296,28 @@ Mean N=3 error bars not included.
 \label{fig2}
 \end{figure}
 
-\subsection*{Cell culture and hypoxia assay}
+\subsection*{Cell culture}
 
-Cancer cells were seeded in a 24 well plate.
+Human A549 cells were seeded at 30,000 cells per well in a 24-well plate.
+Cells were cultured in DMEM supplemented with 10\% FBS.
 When they reached $\sim$70\% confluency the 24-well insert is placed in the plate and the gases are perfused through the device in the same scheme as in the oxygen characterization.
-Each row of six wells experiences either 0, 5, 10 or 21\% \ce{O2}, with 5\% \ce{CO2} and balanced nitrogen.
-The assembly is placed in an incubator at $37\,^{\circ}\mathrm{C}$ for six hours (Fig.~\ref{fig3}). 
+Each row of six wells experiences either 0\%, 5\%, 10\% or 21\% \ce{O2}, with 5\% \ce{CO2} and balanced nitrogen.
+The assembly is placed in an incubator at $37\,^{\circ}$C for six hours. 
+
+
+\subsection*{Quantitative PCR}
+
+Following 6 h of oxygen modulation, the 24-well oxygen control insert was removed and culture media was aspirated.
+Cells in each well were washed twice with PBS, and 300 $/mu$L of a lysis solution consisting of 10 $\mu$L of $\beta$-mercaptoethanol (Sigma Aldrich) per 1 mL of lysis buffer (PureLink RNA Mini Kit; Invitrogen) was added to each well.
+The lysate from each well was collected as a sample.
+RNA was extracted according to the PureLink RNA Mini Kit manufacturer’s instructions.
+
+Synthesis of cDNA was performed using the High-Capacity cDNA Reverse Transcription Kit (Applied Biosystems), and quantitative PCR was carried out on ABI PRISM 700O (Applied Biosystems) in 25 $\mu$L reactions using Taqman Gene Expression Assays.
+Beta-2-microglobulin (B2M) served as the endogenous control for calculations of relative gene expression.
+
+\section*{Statistical analysis}
+
+Cell culture experiments were repeated three independent times. Data are expressed as the mean $\pm$ SD. One-way ANOVA with Tukey’s multiple comparison post-test performed by Prism 5 (Graphpad) determined significance. (Fig.~\ref{fig3}).
 
 \begin{figure}[h]
 \caption{
