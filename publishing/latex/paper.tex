@@ -216,7 +216,7 @@ Microfluidic cell culture devices are most commonly cast in PDMS as it is a conv
 Oxygen control in cells studies is often overlooked by researchers, but important for mimicking conditions experienced by cells in vivo.
 Typically cell culture studies are preformed at 21\% oxygen, atmospheric oxygen conditions, although levels that cells experience in vivo are less than 21\% \cite{Brennan2014}.
 For example tumors are generally hypoxic as cancer cells rapidly out grow their vasculature creating a poorly perfused, hypoxic inner region\cite{Kumar2014}.
-Studying cancer cells under controlled hypoxic conditions is important in understanding the pathophysiology because research has shown hypoxia may enhance aggressive phenotypes, tumor progression, metastasis, ans resistance to therapy.
+Studying cancer cells under controlled hypoxic conditions is important in understanding the pathophysiology because research has shown hypoxia may enhance aggressive phenotypes, tumor progression, metastasis, and resistance to therapy.
 Hypoxia is known to alter the transcription of many genes which are under the activity of the HIF (hypoxia inducible factor) family of transcriptional factors.
 To better study the role of oxygen levels in cancer gene expression a gas controlled culture system is required.
 
@@ -285,7 +285,7 @@ Initially the inlets are fed with a 5\% \ce{CO2}, balanced air tank until the in
 The inlets are then switched to the control gas of either 0, 5 10 or 21\% \ce{O2}, each with 5\% \ce{CO2} and balanced with \ce{N2}.
 Intensity measurements are then taken every five minutes for six hours.
 All gas tanks used in the oxygen characterization were 5\% \ce{CO2} in addition to the desired gas mix in anticipation of cell culture experiments as \ce{CO2} can alter the fluorescence of the PtOEPK.
-The this entire procedure was repeated three times for and sample size of three. 
+The this entire procedure was repeated three times for a sample size of three. 
 
 \begin{figure}[h]
 \caption{
@@ -311,7 +311,7 @@ The assembly is placed in an incubator at $37\,^{\circ}$C for six hours.
 \subsection*{Quantitative PCR}
 
 Following 6 h of oxygen modulation, the 24-well oxygen control insert was removed and culture media was aspirated.
-Cells in each well were washed twice with PBS, and 300 $/mu$L of a lysis solution consisting of 10 $\mu$L of $\beta$-mercaptoethanol (Sigma Aldrich) per 1 mL of lysis buffer (PureLink RNA Mini Kit; Invitrogen) was added to each well.
+Cells in each well were washed twice with PBS, and 300 $\mu$L of a lysis solution consisting of 10 $\mu$L of $\beta$-mercaptoethanol (Sigma Aldrich) per 1 mL of lysis buffer (PureLink RNA Mini Kit; Invitrogen) was added to each well.
 The lysate from each well was collected as a sample.
 RNA was extracted according to the PureLink RNA Mini Kit manufacturer’s instructions.
 
@@ -324,7 +324,7 @@ Cell culture experiments were repeated three independent times. Data are express
 
 \begin{figure}[h]
 \caption{
-{\bf PCR Data.}  VEGF expression in A549 cells after exposure to different oxygen conditions.
+{\bf PCR Data.}  VEGF expression in A549 cells after exposure to different oxygen conditions set-up by the insert device. 
 }
 \label{fig3}
 \end{figure}
@@ -342,19 +342,21 @@ Cell culture experiments were repeated three independent times. Data are express
 \section*{Results}
 \subsection*{Oxygen Control}
 Oxygen control in the 24-well insert device was quantified with a platinum based (PtOEPK) planar oxygen sensor placed at the bottom of the well, as shown in Fig.~\ref{fig2}.
-Oxygen was able to be controlled in each of the 6 wells equally from one gas input demonstrating the distribution network worked effectively.
 The device reaches steady state in 30 minutes and can then hold the oxygen level near 0\% \ce{O2} indefinitely, while 95\% \ce{N2}, 5\% \ce{CO2} is pumped through the device. 
-A different gas condition can be used in each separate iteration of the 6-well unit allowing 6 technical replicates of up to 4 different gas conditions in one 24 well plate (Fig.~\ref{fig2}).
+A different gas condition can be used in each separate iteration of the 6-well unit allowing 6 technical replicates of up to 4 different gas conditions in one 24 well plate (Fig.~\ref{fig2}). There was little variation in the oxygen levels measured in each of the 6 well controlled by a single inlet, demonstrating the distribution network worked effectively.
 
 \subsection*{Bioverifcation}
-The devices ability to control the gas environment is demonstrated with hypoxia influenced expression of mRNA in cancer cells (Fig.~\ref{fig3}).
-Oxygen levels of 21, 10, 5, and 0\% are applied to each set of 6 wells. 
 
-More mRNA stuff for Megan to expand (Fig.~\ref{fig3}).
+Oxygen levels of 21\%, 10\%, 5\%, and 0\% were applied to each set of 6 wells in which A549 cells were cultured.
+Measurement of relative gene expression confirmed biological responsiveness of cells under the device’s control.
+The device’s ability to control the gas environment was demonstrated with hypoxia-induced upregulation of VEGFA mRNA in the A549 cells (Fig.~\ref{fig3}).  Quantitative PCR showed a significant increase in the relative gene expression of VEGFA in wells exposed to 0\% \ce{O2} for 6 hours as compared to 21\% \ce{O2}. Hypoxia-induced alterations in gene expression usually indicate a HIF-transduced hypoxic signal in cells.
+When a HIF transcription factor undergoes nuclear translocation, it can initiate transcription of genes by binding to the hypoxia response element (HRE) on its target genes.
+VEGFA has previously been shown to have a functional HRE, and upregulation has been observed in A549 cells under hypoxic conditions.
 
 \subsection*{Discussion}
-This new iteration of the multi-well insert for oxygen control maintains the convenient features of the previous design.
+This new iteration of the multi-well insert for oxygen control maintains the convenient features of the previous design while improving distribution and interfacing with tubing due to the 3D-printed element.
 Oxygen control is preformed in an off-the-shelf culture plate allowing standard protocols to be used for analysis assays or imaging where additional protocols are often required when cells are seeded within microfluidic chips.
+The VEGFA gene expression in A549 cells confirms a biological response using the multi-well insert.
 
 This 3D-printed device improves on our previous design in a number of ways.
 First, the fabrication is greatly simplified. 
@@ -365,12 +367,12 @@ In PDMS devices the layers are bonded permanently via plasma bonding so damage t
 A comparable PDMS device would require several additional microfabricated layers to be manually aligned to reproduce just the distribution network.
 
 Moving forward with additive manufacturing of microfluidic devices is desirable as it will enable highly integrated designs without any additional fabrication.
-For this device an on-device gas mixer could allow more conditions in a single plate, perhaps even one per well or even gradients within wells while reducing the number of gas tanks required.
+For this device an in-device gas mixer could allow more conditions in a single plate, perhaps even one per well or even gradients within wells while reducing the number of gas tanks required as inputs.
 This design could also be applied to higher format plates such as 96-well plates.
 
 \section*{Conclusion}
 3D printing microfluidic chips have been limited to non oxygen permeable materials. We demonstrate oxygen control in 3D printed devices the addition of a gas permeable PDMS membrane. 
-Oxygen control is demonstrated in a 24 well plate and PCR analysis of X in Y cells shows the device effectively controls oxygen as expected. 
+Oxygen control is demonstrated in a 24 well plate and PCR detection of upregulation of VEGFA mRNA in the A549 shows the device effectively controls oxygen as expected. 
 3D printing allows complex designs, integrated tubing connectors, and is comparable in price to standard PDMS fabrication. 
 This technique represents a bridge to commercialization where robust devices can be more easily shared and disseminated. 
 While injection molding, hot embossing, or other industrial processes are cheaper when making hundreds to thousands of devices, it is not practical to make a injection mold when making tens to hundreds of devices. 
