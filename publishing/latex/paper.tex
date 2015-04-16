@@ -180,18 +180,18 @@ David T. Eddington\textsuperscript{1,*},
 \end{flushleft}
 % Please keep the abstract below 300 words
 \section*{Abstract}
-Recently 3D printing has emerged as a method for directly printing complete microfluidic devices, although printing materials have been limited to non-oxygen permeable materials.
-We demonstrate the addition of gas permeable PDMS (Polydimethylsiloxane) membranes to 3D printed microfluidic devices as a means to enable oxygen control cell culture studies.
+Recently 3D printing has emerged as a method for directly printing complete microfluidic devices, although printing materials have been limited to oxygen-impermeable materials.
+We demonstrate the addition of gas permeable PDMS (Polydimethylsiloxane) membranes to 3D-printed microfluidic devices as a means to enable oxygen control cell culture studies.
 The incorporation of a 3D-printed device and gas-permeable membranes was demonstrated on a 24-well oxygen control device for standard multiwell plates.
 The direct printing allows integrated distribution channels and device geometries not possible with traditional planar lithography.
-With this device, four different oxygen conditions were able to be controlled and six wells were maintained under each oxygen condition. 
-We demonstrate enhanced transcription of VEGFA (vascular endothelial growth factor A) gene with decreasing oxygen levels in human lung adenocarcinoma cells.
+With this device, four different oxygen conditions were able to be controlled, and six wells were maintained under each oxygen condition. 
+We demonstrate enhanced transcription of the gene VEGFA (vascular endothelial growth factor A) with decreasing oxygen levels in human lung adenocarcinoma cells.
 This is the first 3D-printed device that can be functionalized to control oxygen in cell culture.
 
 \linenumbers
 
 \section*{Introduction}
-Here we report on the development of 3D printed microfluidic devices for the control of oxygen in cell culture microenvironments.
+Here we report on the development of 3D-printed microfluidic devices for the control of oxygen in cell culture microenvironments.
 We demonstrate a device that nests into a 24-well culture plate to control gas in each row of the plate independently of the incubator's condition.
 This expands on our previous work of a device fabricated using PDMS molds and planar lithography for 6-well plates\cite{Oppegard2009,Oppegard2010}.
 The ability to independently control oxygen across each row of the plate enables more efficient experiments as a separate incubator or hypoxic chamber is not needed for each condition.
@@ -205,29 +205,29 @@ Dissemination and distributed production is also vastly simplified due to easy s
 Due to these inherent advantages 3D printing has emerged as a method for directly printing complete microfluidic devices \cite{Au2014,Comina2014, Chen2014,Shallan2014,Bhargava2014}. 
 Many prototypical microfluidic device features have been recreated with 3D printing as a proof of concept for this new fabrication technique \cite{ Au2014, Shallan2014} including modular re-configurable units\cite{Yuen2008,Bhargava2014,Lee2014}.
 3D printed devices have been used for neuroengineering applications\cite{Tek2008}, inexpensive and high-throughput reactionware,\cite{Kitson2012,Symes2012, Kitson2014}, culturing and imaging arrays of seedlings\cite{Busch2012}, measuring dopamine and ATP levels in biological samples with an integrated electrode\cite{Erkal2014}, or plate reader\cite{Chen2014}, and a bacteria separation flow assay\cite{Lee2014a,Lee2015}. 
-Other 3D printed fluidic devices include pneumatic valves\cite{Au2015} a custom NMR cell\cite{Causier2015}, a rapid reconstitution package for lyophilized drugs\cite{Chi2014} and flow plates for a water electrolysis system\cite{Chisholm2014}.
+Other 3D-printed fluidic devices include pneumatic valves\cite{Au2015} a custom NMR cell\cite{Causier2015}, a rapid reconstitution package for lyophilized drugs\cite{Chi2014} and flow plates for a water electrolysis system\cite{Chisholm2014}.
 
 Printing is currently limited in choice of substrate compatible with the 3D printing process.
 Substrate options include many proprietary formulations which have been successfully used in a variety of applications.
-New techniques for using a 3D-printed molds to produce devices\cite{Mcdonald2002,Gregory2013,King2014,Comina2014a} are also being developed, including fugitive ink methods\cite{Therriault2003,Miller2012,Bhargava2015}.
-To date, there are no widely available methods or materials to facilitate direct printing of gas permeable materials although this area is actively being explored\cite{Femmer2014a}.
-Microfluidic cell culture devices are most commonly cast in PDMS as it is a convenient material for cell studies due to it's biocompatibility, optical properties, and gas permeability, facilitating oxygen control of cell environments\cite{Sia2003,Brennan2014}.
+New techniques for using 3D-printed molds to produce devices\cite{Mcdonald2002,Gregory2013,King2014,Comina2014a,Kamei2015} are also being developed, including fugitive ink methods\cite{Therriault2003,Miller2012,Bhargava2015}.
+To date, there are no widely available methods or materials to facilitate direct printing of gas-permeable materials, although this area is actively being explored\cite{Femmer2014a}.
+Microfluidic cell culture devices are most commonly cast in PDMS as it is a convenient material for cell studies due to its biocompatibility, optical properties, and gas permeability, facilitating oxygen control of cell environments\cite{Sia2003,Brennan2014}.
 
 Oxygen control in cells studies is often overlooked by researchers, but important for mimicking conditions experienced by cells in vivo.
 Typically cell culture studies are performed at 21\% oxygen, atmospheric oxygen conditions, although levels that cells experience in vivo are less than 21\% \cite{Brennan2014}.
-For example tumors are generally hypoxic as cancer cells rapidly outgrow their vasculature creating a poorly perfused, hypoxic inner region\cite{Kumar2014}.
-Studying cancer cells under controlled hypoxic conditions is important in understanding the pathophysiology because research has shown hypoxia may enhance aggressive phenotypes, tumor progression, metastasis, and resistance to therapy.
-Hypoxia is known to alter the transcription of many genes which are under the activity of the HIF (hypoxia inducible factor) family of transcriptional factors.
-To better study the role of oxygen levels in cancer gene expression a gas controlled culture system is required.
+For example, tumors are generally hypoxic as cancer cells rapidly outgrow their vasculature creating a poorly perfused, hypoxic inner region\cite{Kumar2014}.
+Studying cancer cells under controlled hypoxic conditions is important in understanding the pathophysiology because research has shown hypoxia may enhance aggressive phenotypes, tumor progression, metastasis, and resistance to therapy\cite{Vaupel2004,Vaupel2007,Gilkes2014}.
+Hypoxia is known to alter the transcription of many genes which are under the activity of the HIF (hypoxia inducible factor) family of transcriptional factors\cite{Ke2006,Semenza1999,Semenza2002}.
+To better study the role of oxygen levels in cancer gene expression, a gas controlled culture system is required.
 
 Previously, we developed multiwell inserts for 6-well plates that controlled oxygen in a standard off-the shelf well plate \cite{Oppegard2009, Oppegard2010}.
 These devices were completely cast from PDMS and fabricated in a multiple bonding procedure.
 In addition, tubing was used to connect each pillar which became quite cumbersome when moving to a newer 24-well version.
 Utilizing 3D printing for the fabrication allowed further features to be incorporated such as integrated distribution channels to eliminate the connection tubings between wells and hose barbs for better tubing connections, while eliminating fabrication time and failure rate.
-Although available 3D printable materials are non-gas-permeable, the addition of a PDMS membrane following printing the passive microfluidic network is a simple addition allowing gas transfer. 
+Although available 3D printable materials are gas-impermeable, the addition of a PDMS membrane following printing of the passive microfluidic network is a simple addition allowing gas transfer. 
 In this case, having a gas-impermeable material for the bulk is advantageous as it reduces unwanted gas transfer from the bulk material prior to the gas exchange interface.
-The previous PDMS devices were Parylene coated along the convection channels to eliminate exchange of gas from the PDMS bulk, which again added to their complexity and is now longer needed.
-Convection and distribution of the gas is done in the impermeable material eliminating dilution of the gas before reaching the diffusion layer. 
+The previous PDMS devices were Parylene coated along the convection channels to eliminate exchange of gas from the PDMS bulk, which again added to their complexity and is no longer needed.
+Convection and distribution of the gas is done in the impermeable material, eliminating dilution of the gas before reaching the diffusion layer. 
 
 % You may title this section "Methods" or "Models". 
 % "Models" is not a valid title for PLoS ONE authors. However, PLoS ONE
@@ -235,8 +235,8 @@ Convection and distribution of the gas is done in the impermeable material elimi
 \section*{Materials and Methods}
 \subsection*{Design of insert}
 
-The device was designed to integrate with a multiwell format, specifically an off-the-shelf 24 well plate. 
-The 24 well plate insert is designed to control gas in 4 rows of 6 wells each. 
+The device was designed to integrate with a multiwell format, specifically an off-the-shelf 24-well plate. 
+The 24-well plate insert was designed to control gas in 4 rows of 6 wells each. 
 Each of the 4 rows can be controlled independently from an input and also incorporates an integrated distribution network and hose barbs to simplify device operation.
 The pillars extend into each well leaving a $\sim$500 $\mu$m gap for media between the diffusion membrane and the culture surface at the bottom of the well.
 Diffusion occurs rapidly across this gap allowing control of the dissolved gas environment around the cells. 
@@ -248,13 +248,13 @@ The device also features a pipe within a pipe design so that gas flow enters and
 \caption{
 {\bf Design of 24-well Insert Device.}
 (A) Rendering of whole 3D printed part.
-An inlet and outlet barb allows perfusion of gas to control 6 channels.
+An inlet and outlet barb allows perfusion of gas to control 6 wells.
 (B) At the bottom of each pillar gas entering from the outer channel flows along the PDMS membrane (blue), which is supported by micropillars, and exhausts via the inner pipe.
 Diffusion occurs rapidly through the PDMS membrane to the cell culture spaced 500 $\mu$m away at the bottom of the well.
 (C) Cross-section demonstrating how the microfluidic distribution network and double pipes are connected. 
 The two adjacent mirrored distribution networks are spaced 1 mm apart along the z-axis allowing them to overlap and enter the separate vertical pipes.
 The arrows indicate the flow direction.
-The incoming gas enters enters the outer pipe on its way to the bottom of the well and returns through the inner pipe.
+The incoming gas enters the outer pipe on its way to the bottom of the well and returns through the inner pipe.
 (D) Photo of the device with dyed channels in a 24-well plate.
 (E) Photo of the device from the bottom with four independent channel networks.
 (F) Photo of the printed distribution networks.
@@ -265,69 +265,51 @@ The incoming gas enters enters the outer pipe on its way to the bottom of the we
 \subsection*{Fabrication of the insert}
 
 CAD models were designed in Autodesk and Blender and printed via stereolithography in Watershed XC by Fineline Prototyping.
-The 3D part contained the microfluidic delivery channels, and was completed by adhering a gas permeable membrane of PDMS to enable diffusion of gas to the culture area. 
-The PDMS membranes are fabricated by spin coating PDMS on a silicon wafer at 900 RPM to a thickness of $\sim$100 $\mu$m and curing at $70\,^{\circ}$ C.
-The PDMS membrane is cut to size and attached to the 3D-printed network with an additional, thin layer of PDMS that was applied as an adhesive to the membrane, secured in position on the end of each pillar, and allowed to cure in place.
+The 3D part contained the microfluidic delivery channels, and was completed by adhering a gas-permeable membrane of PDMS to enable diffusion of gas to the culture area. 
+The PDMS membranes were fabricated by spin coating PDMS on a silicon wafer at 900 RPM to a thickness of $\sim$100 $\mu$m and curing at $70\,^{\circ}$C for 30 minutes.
+The PDMS membrane was cut to size and attached to the 3D-printed network with an additional, thin layer of PDMS that was applied as an adhesive to the membrane, secured in position on the end of each pillar, and allowed to cure in place.
 
 \subsection*{Oxygen characterization}
 
 Oxygen was measured with PtOEPK (Pt(II) Octaethylporphine ketone) planar sensors that were fixed to the bottom of a 24-well plate.
-Sensors were prepared as discussed previously \cite{Sinkala2010}. 
-Briefly, polystyrene is dissolved in toluene to form a solution to which PtOEPK is mixed in before spinning coating to a thin layer and allowing the toluene to evaporate.
-The intensity of the sensor was measured with via fluorescence microscopy and correlated to the concentration of oxygen with Stern-Volmer analysis (Fig.~\ref{fig2}).
+Sensors were prepared as discussed previously \cite{Sinkala2010,Rexius-Hall2014}. 
+Briefly, polystyrene was dissolved in toluene to form a solution to which PtOEPK was mixed in before spin coating to a thin layer and allowing the toluene to evaporate.
+The intensity of the sensor was measured with via fluorescence microscopy and correlated to the concentration of oxygen with Stern-Volmer analysis.
 
 Gas was pulled through the device with negative pressure as a precaution to avoid bulging or detaching membranes, as well as bubble formation in the culture media.
 The outlet ports were connected to a water aspirator which pulled gas through the device from the inlet ports.
-The inlet tubing was placed in an open cone that was flooded with gas from a tank with a flow that exceed the vacuum flow so that the gas of interest is pulled into the inlet rather than room air due to the open connection.
-In this way, the pressure and therefore flow rate is equal across the 4 networks without having to balance flow from 4 pressurized sources, yet different gases of interest can be perfused via vacuum.
+The inlet tubing was placed in an open cone that was flooded with gas from a tank with a flow that exceed the vacuum flow so that the gas of interest was pulled into the inlet rather than room air due to the open connection.
+In this way, the pressure, and therefore flow rate, was equal across the 4 networks without having to balance flow from 4 pressurized sources, yet different gases of interest can be perfused via vacuum.
 
 Initially the inlets are fed with a 5\% \ce{CO2}, balanced air tank until the intensity stabilized.
-The inlets are then switched to the control gas of either 0, 5 10 or 21\% \ce{O2}, each with 5\% \ce{CO2} and balanced with \ce{N2}.
-Intensity measurements are then taken every five minutes for six hours.
-All gas tanks used in the oxygen characterization were 5\% \ce{CO2} in addition to the desired gas mix in anticipation of cell culture experiments as \ce{CO2} can alter the fluorescence of the PtOEPK.
-The this entire procedure was repeated three times for a sample size of three. 
-
-\begin{figure}[h]
-\caption{
-{\bf Oxygen Characterization.} 
-(A) Time course data of oxygen being evacuated from the culture area as 0\% oxygen gas is perfused through the device.
-Error bars are the standard deviation N=3.
-(B) Four oxygen conditions are demonstrated in a 24-well plate.
-Each 6-well row of the plate can be controlled independently.  
-Mean N=3 error bars not included.
-}
-\label{fig2}
-\end{figure}
+The inlets were then switched to the control gas of either 0, 5, 10, or 21\% \ce{O2}, each with 5\% \ce{CO2} and balanced with \ce{N2}.
+Intensity measurements were then taken every five minutes for six hours.
+All gas tanks used in the oxygen characterization were 5\% \ce{CO2}  in addition to the desired gas mix in anticipation of cell culture experiments (where \ce{CO2} is necessary to buffer the culture media) as \ce{CO2} can alter the fluorescence of the PtOEPK.
+The this entire procedure was repeated three independent times. 
 
 \subsection*{Cell culture}
 
-Human A549 cells were seeded at 30,000 cells per well in a 24-well plate.
+Human lung adenocarcinoma (A549) cells were seeded at 30,000 cells per well in a 24-well plate.
 Cells were cultured in DMEM supplemented with 10\% FBS.
-When they reached $\sim$70\% confluency the 24-well insert is placed in the plate and the gases are perfused through the device in the same scheme as in the oxygen characterization.
-Each row of six wells experiences either 0\%, 5\%, 10\% or 21\% \ce{O2}, with 5\% \ce{CO2} and balanced nitrogen.
-The assembly is placed in an incubator at $37\,^{\circ}$C for six hours. 
+After reaching $\sim$70\% confluency, the 24-well insert was placed in the plate and the gases were perfused through the device in the same scheme as in the oxygen characterization.
+Each row of six wells experienced either 0\%, 5\%, 10\% or 21\% \ce{O2}, with 5\% \ce{CO2} and balanced nitrogen.
+The assembly was placed in an incubator at $37\,^{\circ}$C for six hours. 
 
 
 \subsection*{Quantitative PCR}
 
-Following 6 h of oxygen modulation, the 24-well oxygen control insert was removed and culture media was aspirated.
+Following six hours of oxygen modulation, the 24-well oxygen control insert was removed and culture media was aspirated.
 Cells in each well were washed twice with PBS, and 300 $\mu$L of a lysis solution consisting of 10 $\mu$L of $\beta$-mercaptoethanol (Sigma Aldrich) per 1 mL of lysis buffer (PureLink RNA Mini Kit; Invitrogen) was added to each well.
 The lysate from each well was collected as a sample.
 RNA was extracted according to the PureLink RNA Mini Kit manufacturer’s instructions.
 
 Synthesis of cDNA was performed using the High-Capacity cDNA Reverse Transcription Kit (Applied Biosystems), and quantitative PCR was carried out on ABI PRISM 700O (Applied Biosystems) in 25 $\mu$L reactions using Taqman Gene Expression Assays.
 Beta-2-microglobulin (B2M) served as the endogenous control for calculations of relative gene expression.
+Six technical replicates from the 6-well control unit were processed for each of four oxygen conditions (0\%, 5\%, 10\% and 21\% \ce{O2}) in three independent experiments.
 
 \subsection*{Statistical analysis}
 
-Cell culture experiments were repeated three independent times. Data are expressed as the mean $\pm$ SD. One-way ANOVA with Tukey’s multiple comparison post-test performed by Prism 5 (Graphpad) determined significance. (Fig.~\ref{fig3}).
-
-\begin{figure}[h]
-\caption{
-{\bf PCR Data.}  VEGF expression in A549 cells after exposure to different oxygen conditions set-up by the insert device. 
-}
-\label{fig3}
-\end{figure}
+Cell culture experiments were repeated three independent times. Data are expressed as the mean $\pm$ SD. One-way ANOVA with Tukey’s multiple comparison post-test performed by Prism 5 (Graphpad) determined significance.
 
 % For figure citations, please use "Fig." instead of "Figure".
 %Nulla mi mi, Fig.~\ref{fig1} venenatis sed ipsum varius, volutpat euismod diam. Proin rutrum vel massa non gravida. Quisque tempor sem et dignissim rutrum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at justo vitae nulla elementum commodo eu id massa. In vitae diam ac augue semper tincidunt eu ut eros. Fusce fringilla erat porttitor lectus cursus, \nameref{S1_Video} vel sagittis arcu lobortis. Aliquam in enim semper, aliquam massa id, cursus neque. Praesent faucibus semper libero.
@@ -341,17 +323,36 @@ Cell culture experiments were repeated three independent times. Data are express
 % Results and Discussion can be combined.
 \section*{Results}
 \subsection*{Oxygen Control}
-Oxygen control in the 24-well insert device was quantified with a platinum based (PtOEPK) planar oxygen sensor placed at the bottom of the well, as shown in Fig.~\ref{fig2}.
+Oxygen control in the 24-well insert device was quantified with a platinum-based (PtOEPK) planar oxygen sensor placed at the bottom of the well, as shown in Fig.~\ref{fig2}.
 The device reaches steady state in 30 minutes and can then hold the oxygen level near 0\% \ce{O2} indefinitely, while 95\% \ce{N2}, 5\% \ce{CO2} is pumped through the device. 
-A different gas condition can be used in each separate iteration of the 6-well unit allowing 6 technical replicates of up to 4 different gas conditions in one 24 well plate (Fig.~\ref{fig2}). There was little variation in the oxygen levels measured in each of the 6 well controlled by a single inlet, demonstrating the distribution network worked effectively.
+A different gas condition can be used in each separate iteration of the 6-well unit allowing 6 technical replicates of up to 4 different gas conditions in one 24-well plate (Fig.~\ref{fig2}). There was little variation in the oxygen levels measured in each of the 6 wells controlled by a single inlet, demonstrating the distribution network worked effectively.
+
+\begin{figure}[h]
+\caption{
+{\bf Oxygen Characterization.} 
+(A) Time course data of oxygen being evacuated from the culture area as 0\% oxygen gas is perfused through the device.
+Error bars are the standard deviation N=3.
+(B) Four oxygen conditions are demonstrated in a 24-well plate.
+Each 6-well row of the plate can be controlled independently.  
+Mean N=3 error bars not included.
+}
+\label{fig2}
+\end{figure}
 
 \subsection*{Bioverifcation}
 
 Oxygen levels of 21\%, 10\%, 5\%, and 0\% were applied to each set of 6 wells in which A549 cells were cultured.
 Measurement of relative gene expression confirmed biological responsiveness of cells under the device’s control.
 The device’s ability to control the gas environment was demonstrated with hypoxia-induced upregulation of VEGFA mRNA in the A549 cells (Fig.~\ref{fig3}).  Quantitative PCR showed a significant increase in the relative gene expression of VEGFA in wells exposed to 0\% \ce{O2} for 6 hours as compared to 21\% \ce{O2}. Hypoxia-induced alterations in gene expression usually indicate a HIF-transduced hypoxic signal in cells.
-When a HIF transcription factor undergoes nuclear translocation, it can initiate transcription of genes by binding to the hypoxia response element (HRE) on its target genes.
-VEGFA has previously been shown to have a functional HRE, and upregulation has been observed in A549 cells under hypoxic conditions.
+When a HIF transcription factor undergoes nuclear translocation, it can initiate transcription of genes by binding to the hypoxia response element (HRE)\cite{Lee2004} on its target genes.
+VEGFA has previously been shown to have a functional HRE, and upregulation has been observed in A549 cells under hypoxic conditions\cite{RohrerBley2011}.
+
+\begin{figure}[h]
+\caption{
+{\bf PCR Data.}  VEGFA expression in A549 cells after exposure to different oxygen conditions set-up by the insert device. Data are expressed as mean $\pm$ SD, N=3.
+}
+\label{fig3}
+\end{figure}
 
 \subsection*{Discussion}
 This new iteration of the multi-well insert for oxygen control maintains the convenient features of the previous design while improving distribution and interfacing with tubing due to the 3D-printed element.
@@ -363,7 +364,7 @@ First, the fabrication is greatly simplified.
 No microfabrication, PDMS molding or Parylene coating is required.
 Additionally, the non-permanent adhesion of membranes to the 3D-part allow them to be removed and replaced if they are damaged.
 In PDMS devices the layers are bonded permanently via plasma bonding so damage to a membrane is not repairable.
-3D-printing also enables higher levels of intricacy without any additional fabrication allowing us to include the distribution network and the 'pipe within a pipe' design. 
+3D-printing also enables higher levels of intricacy without any additional fabrication, allowing us to include the distribution network, overlapping of channels in the z-axis, and the 'pipe within a pipe' design. 
 A comparable PDMS device would require several additional microfabricated layers to be manually aligned to reproduce just the distribution network.
 
 Moving forward with additive manufacturing of microfluidic devices is desirable as it will enable highly integrated designs without any additional fabrication.
@@ -371,11 +372,12 @@ For this device an in-device gas mixer could allow more conditions in a single p
 This design could also be applied to higher format plates such as 96-well plates.
 
 \section*{Conclusion}
-3D printing microfluidic chips have been limited to non oxygen permeable materials. We demonstrate oxygen control in 3D printed devices the addition of a gas permeable PDMS membrane. 
-Oxygen control is demonstrated in a 24 well plate and PCR detection of upregulation of VEGFA mRNA in the A549 shows the device effectively controls oxygen as expected. 
+3D printing microfluidic chips have been limited to oxygen-impermeable materials.
+We demonstrate oxygen control in 3D-printed devices with the addition of a gas permeable PDMS membrane. 
+Oxygen control is demonstrated in a 24-well plate and PCR detection of upregulation of VEGFA mRNA in A549 cells shows the device effectively controls oxygen as expected. 
 3D printing allows complex designs, integrated tubing connectors, and is comparable in price to standard PDMS fabrication. 
 This technique represents a bridge to commercialization where robust devices can be more easily shared and disseminated. 
-While injection molding, hot embossing, or other industrial processes are cheaper when making hundreds to thousands of devices, it is not practical to make a injection mold when making tens to hundreds of devices. 
+While injection molding, hot embossing, or other industrial processes are cheaper when making hundreds to thousands of devices, it is not practical to make an injection mold when making tens to hundreds of devices. 
 In addition, PDMS fabrication would be too time consuming, expensive, and the failure rate would be unacceptable. 3D printing is an excellent solution to these device fabrication needs.
 
 %\begin{table}[!ht]
