@@ -26,11 +26,31 @@ I0 = (1+kt*calibration_measurment1)*calibration_intensity1; % intensity in absen
 x1 = 0:1:100;              % makes x values for plot of stern-volmer
 y1 = I0./(1+kt*x1);        % plots stern-volmer. Check to see if its fitting your calibration points.
 
-calculated_percent = ((I0./well)-1)/kt;
-a(:,i) = calculated_percent;
+%plot(y1,x1); % added
 
+calculated_percent = ((I0./well)-1)/kt;
+
+  for n=100
+
+  
+  
+  
+  tau_for_real = .03*calculated_percent + 1 ; 
+
+  calculated_percent_new = ((I0./well)-1)/(kt*tau_for_real(i));
+
+  %a(:,i) = calculated_percent;
+  a2(:,i) = calculated_percent_new;
+  
+  n = n+1
+
+endfor
 endfor
 
 eval = a(5:rows(a),:);
+eval2 = a2(5:rows(a2),:);
 
-save -ascii evaluated120514.csv eval
+ save -ascii evaluated1.csv eval
+ save -ascii evaluated2.csv eval2
+
+
