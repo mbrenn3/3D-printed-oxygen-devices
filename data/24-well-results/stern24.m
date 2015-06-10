@@ -31,10 +31,10 @@ for i = 1:columns (intensities)
    calculated_percent = ((I0./int-1))/kt;
    c1 = calculated_percent;
 
-   for n = 1:1
+   for n = 1:1000
 
      adjusted_tau = 0.0292*calculated_percent + 1.022 ; 
-     adjusted_percent = ((I0./int)-1)/(kt*adjusted_tau(i));
+     adjusted_percent = ((I0./int)-1)./(kt*adjusted_tau);
      calculated_percent = adjusted_percent;
      n = n+1;
 
